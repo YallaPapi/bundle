@@ -1,0 +1,31 @@
+{
+  "socialAccount": {
+    "id": "79c3345d-4fb9-4a80-ab35-1c4959cbdcb4",
+    "type": "INSTAGRAM",
+    "teamId": "df54f2e7-4de0-4d2c-a8d3-06b439e54830",
+    "username": "landonandstuff",
+    "displayName": "landonandstuff",
+    "bio": "Just here for the plot",
+    "avatarUrl": "https://storage.bundle.social/social-account-avatars/d49c03b3-ff1b-401a-9532-12eb3e5ac1ac/79c3345d-4fb9-4a80-ab35-1c4959cbdcb4/9f3f1933c60a99e5-ef91a606d8d63871.jpg",
+    "externalId": "28760920193535384",
+    "providerPageId": null,
+    "userUsername": "landonandstuff",
+    "userDisplayName": "landonandstuff",
+    "userEmail": null,
+    "userId": "17841423569524174",
+    "channels": null,
+    "mastodonServerId": null,
+    "instagramConnectionMethod": "INSTAGRAM",
+    "twitterSubType": null,
+    "isTiktokBusinessAccount": null,
+    "disconnectedCheckTryAt": null,
+    "deleteOn": null,
+    "messagingStatus": "DISABLED",
+    "messagingStatusUpdatedAt": null,
+    "messagingLastError": null,
+    "createdAt": "2026-10-19T06:11:56.127Z",
+    "updatedAt": "2026-10-24T06:34:31.219Z",
+    "deletedAt": null
+  },
+  "items": []
+}

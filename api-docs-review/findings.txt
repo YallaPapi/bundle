@@ -1,0 +1,84 @@
+Bundle documentation audit - 2026-10-20
+
+COVERAGE AND VALIDATION
+Retrieved all 282 API-reference, scheduler-guide and knowledge-base pages
+listed in the documentation index, with zero failed downloads. Snapshot and
+SHA-256 hashes are recorded in manifest.json. Saved the live OpenAPI schema
+(194 operations) as swagger.json. Download coverage is not an end-to-end
+publishing test. No real media was uploaded or post created in this audit.
+
+Inspected all API operation names and the detailed upload, post-creation,
+CSV-import, account/team lookup, error, retention and quota contracts.
+Checked the official CLI documentation, README and posting/media source.
+Executed the published CLI 1.2.1 --version and help for posts:schedule,
+media:upload-large and posts:csv. These checks required no API key.
+
+VERIFIED LOCAL-FILE WORKFLOW
+The existing Bundle CLI accepts a local file via --media, a caption via
+--content, an explicit team via --team-id and a time via --date.
+posts:schedule uploads local media to that team, captures media IDs and
+creates a SCHEDULED post. Instagram Reel type is supplied through
+--platform-settings. This behavior is documented and visible in source.
+There is no need to build an application or host videos externally.
+
+The agent can read the user's spreadsheet and invoke those official
+commands for every row. The spreadsheet-to-command mapping is performed
+by the agent; it is not a documented native filename-based CSV importer.
+Any suggested filename spreadsheet must be labeled as agent input.
+
+Files above the simple-upload limit of 90 MB require the documented larger
+upload flow. Do not assume posts:schedule auto-chunks: reviewed CLI media
+source calls the simple upload endpoint for local files. Use the existing
+media:upload-large command and schedule with the returned ID in the post
+data, or follow the documented multipart upload endpoints.
+
+NATIVE CSV IMPORT IS A SEPARATE CONTRACT
+POST /api/v1/post-csv-import accepts one CSV file, not video files alongside
+it. The documented Instagram media column is instagramMediaUrls. It is not
+documented as accepting local filenames or an instagramUploadIds column.
+teamId, title, postDate, status and socialAccountTypes are required columns;
+instagramText carries the Instagram caption and instagramType can be REEL.
+The generated bundle-instagram-posts-template.csv is for THAT URL-based
+importer. It does not satisfy the local-video workflow by itself.
+
+Upload responses include a nullable url as well as an id. The docs say to
+use upload IDs for post creation and hosted URLs for URL fields. This audit
+did not test importing an already-hosted Bundle video back through the CSV
+importer; do not assert that this round-trip avoids duplicate processing or
+adds filename matching.
+
+OFFICIAL ALTERNATIVE
+Bundle also provides bundlesocial-mcp for local agent integrations. Its
+upload_media tool accepts a local path in stdio mode, and schedule_post
+schedules posts. This is an existing vendor tool, not a custom service.
+CLI is the checked option for the current shell-capable agent workflow.
+
+CONSTRAINTS
+The organization API key is not restricted to a VA's prefix; the agent must
+use the approved team mapping and verify connected usernames before routing.
+Use explicit timezones. Preserve post IDs/reference keys and reconcile
+uncertain requests before retries. A repeated POST is not documented as an
+exactly-once guarantee. Respect documented quotas and retain per-row results.
+
+DOCUMENTATION CONFLICT FOUND
+platform-parameters.md mentions Reels up to 90 seconds, while limits.md
+lists 3 seconds to 15 minutes. Do not promise an exact duration limit based
+on the conflicting pages without further verification for the actual files.
+This does not change the documented upload-ID / caption / team / time flow.
+
+SOURCES
+https://info.bundle.social/llms.txt
+https://api.bundle.social/swagger-json
+https://info.bundle.social/api-reference/cli
+https://github.com/bundleglobal/bundlesocial-cli/blob/main/README.md
+https://github.com/bundleglobal/bundlesocial-cli/blob/main/src/commands/posts.ts
+https://github.com/bundleglobal/bundlesocial-cli/blob/main/src/media.ts
+https://info.bundle.social/api-reference/mcp
+https://info.bundle.social/api-reference/upload-content
+https://info.bundle.social/api-reference/client/post/create-post
+https://info.bundle.social/api-reference/bulk-posts-csv
+https://info.bundle.social/api-reference/platform-parameters
+https://info.bundle.social/api-reference/limits
+https://info.bundle.social/api-reference/rate-limits
+https://info.bundle.social/api-reference/data-retention
+https://info.bundle.social/api-reference/errors

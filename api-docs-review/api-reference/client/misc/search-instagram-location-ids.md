@@ -1,0 +1,284 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://info.bundle.social/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Search Instagram location IDs
+
+> Searches Facebook Pages with physical location data and returns IDs that can be used as data.INSTAGRAM.locationId.
+
+
+
+## OpenAPI
+
+````yaml https://api.bundle.social/swagger-json get /api/v1/misc/instagram/locations
+openapi: 3.0.2
+info:
+  title: bundle.social API
+  description: >-
+    REST API for social media management. Perfect for AI assistants, GPTs,
+    automation tools, and integrations. Post to 14+ platforms including Twitter,
+    Instagram, Facebook, LinkedIn, TikTok, Pinterest, Reddit, Discord, Slack,
+    YouTube, Mastodon, Bluesky, Threads, and Google Business. Schedule posts,
+    manage content, analyze performance, and automate your social media workflow
+    across all platforms.
+  version: 1.0.0
+  contact:
+    email: contact@bundle.social
+  termsOfService: https://bundle.social/terms
+servers:
+  - url: https://api.bundle.social
+  - url: http://localhost:3001
+security:
+  - ApiKeyAuth: []
+tags:
+  - name: app
+  - name: organization
+  - name: team
+  - name: socialAccount
+  - name: upload
+  - name: post
+  - name: postImport
+  - name: analytics
+  - name: comment
+  - name: conversation
+    description: >-
+      Read and reply to Instagram and Facebook direct message conversations,
+      react to messages, and send private replies to comments.
+  - name: automation
+    description: >-
+      Build, publish and monitor automation flows that react to incoming
+      messages and comments, plus the per-account provider settings they rely
+      on.
+  - name: misc
+  - name: postCSV
+paths:
+  /api/v1/misc/instagram/locations:
+    get:
+      tags:
+        - misc
+      summary: Search Instagram location IDs
+      description: >-
+        Searches Facebook Pages with physical location data and returns IDs that
+        can be used as data.INSTAGRAM.locationId.
+      operationId: misc.instagram.searchLocations
+      parameters:
+        - name: teamId
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: q
+          in: query
+          description: Free-text query used to search location pages
+          required: true
+          schema:
+            type: string
+            minLength: 1
+        - name: limit
+          in: query
+          schema:
+            default: 10
+            type: integer
+            minimum: 1
+            maximum: 25
+      responses:
+        '200':
+          description: '200'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        locationId:
+                          type: string
+                          description: >-
+                            Facebook Page ID to pass as
+                            data.INSTAGRAM.locationId
+                        name:
+                          type: string
+                          description: Location page name
+                        link:
+                          type: string
+                          nullable: true
+                          description: Public Facebook Page link
+                        location:
+                          type: object
+                          properties:
+                            city:
+                              type: string
+                              nullable: true
+                            country:
+                              type: string
+                              nullable: true
+                            latitude:
+                              type: number
+                              nullable: true
+                            longitude:
+                              type: number
+                              nullable: true
+                            state:
+                              type: string
+                              nullable: true
+                            street:
+                              type: string
+                              nullable: true
+                            zip:
+                              type: string
+                              nullable: true
+                          nullable: true
+                          description: Physical location metadata
+                      required:
+                        - locationId
+                        - name
+                required:
+                  - items
+        '400':
+          description: '400'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                  issues:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        code:
+                          type: string
+                          enum:
+                            - invalid_type
+                            - invalid_literal
+                            - custom
+                            - invalid_union
+                            - invalid_union_discriminator
+                            - invalid_enum_value
+                            - unrecognized_keys
+                            - invalid_arguments
+                            - invalid_return_type
+                            - invalid_date
+                            - invalid_string
+                            - too_small
+                            - too_big
+                            - invalid_intersection_types
+                            - not_multiple_of
+                            - not_finite
+                          nullable: true
+                        message:
+                          type: string
+                        path:
+                          type: array
+                          items:
+                            oneOf:
+                              - type: string
+                              - type: number
+                          nullable: true
+                      required:
+                        - message
+                    nullable: true
+                required:
+                  - message
+        '401':
+          description: '401'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+        '403':
+          description: '403'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+        '404':
+          description: '404'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+        '429':
+          description: '429'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+        '500':
+          description: '500'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+        '502':
+          description: '502'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode:
+                    type: number
+                    nullable: true
+                  message:
+                    type: string
+                required:
+                  - message
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      name: x-api-key
+      in: header
+
+````
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

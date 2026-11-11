@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+dashboard/data/
+__pycache__/
+*.pyc
+
+# Local operational data and access material (never commit)
+outputs/
+runs/
+*.sqlite3
+*.sqlite3-*
+bundle-portal-links*.csv
+ALL YP ACCOUNTS MASTERLIST*.csv
+*.xlsx
+*.zip
+*.mp4

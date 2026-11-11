@@ -1,0 +1,124 @@
+{
+  "results": [
+    {
+      "postId": "84952890-b211-4562-888f-a9173c4d4242",
+      "items": [
+        {
+          "id": "ad7c85a2-1201-4096-83e4-b42a39ef584d",
+          "profilePostId": "bb616bde-8564-4f3c-8525-c7af282e0825",
+          "impressions": 203,
+          "impressionsUnique": 134,
+          "views": 203,
+          "viewsUnique": 0,
+          "likes": 0,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 2,
+          "saves": 0,
+          "forced": false,
+          "createdAt": "2026-10-24T08:20:33.012Z",
+          "updatedAt": "2026-10-24T08:20:33.012Z",
+          "deletedAt": null
+        },
+        {
+          "id": "cfa34f6c-600b-4c2e-b191-3b9114edd8f0",
+          "profilePostId": "bb616bde-8564-4f3c-8525-c7af282e0825",
+          "impressions": 201,
+          "impressionsUnique": 132,
+          "views": 201,
+          "viewsUnique": 0,
+          "likes": 0,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 2,
+          "saves": 0,
+          "forced": false,
+          "createdAt": "2026-10-23T08:19:31.250Z",
+          "updatedAt": "2026-10-23T08:19:31.250Z",
+          "deletedAt": null
+        },
+        {
+          "id": "df7ca9bc-a19b-439e-86e1-814a91261f9a",
+          "profilePostId": "bb616bde-8564-4f3c-8525-c7af282e0825",
+          "impressions": 0,
+          "impressionsUnique": 0,
+          "views": 0,
+          "viewsUnique": 0,
+          "likes": 0,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 0,
+          "saves": 0,
+          "forced": false,
+          "createdAt": "2026-10-22T08:18:56.570Z",
+          "updatedAt": "2026-10-22T08:18:56.570Z",
+          "deletedAt": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "postId": "8e475969-4bf7-489a-b6c9-e525acdfd77d",
+      "items": [
+        {
+          "id": "7a9bf757-6626-4f1e-8a15-f16f3f86f6dc",
+          "profilePostId": "0b40f53b-a56f-48f0-a416-ad8fefc7876a",
+          "impressions": 1777,
+          "impressionsUnique": 1567,
+          "views": 1777,
+          "viewsUnique": 0,
+          "likes": 40,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 5,
+          "saves": 7,
+          "forced": false,
+          "createdAt": "2026-10-24T11:24:45.656Z",
+          "updatedAt": "2026-10-24T11:24:45.656Z",
+          "deletedAt": null
+        },
+        {
+          "id": "d85edb26-2e4c-4eb4-b0a7-9a9fa28b8f26",
+          "profilePostId": "0b40f53b-a56f-48f0-a416-ad8fefc7876a",
+          "impressions": 1775,
+          "impressionsUnique": 1562,
+          "views": 1775,
+          "viewsUnique": 0,
+          "likes": 40,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 5,
+          "saves": 7,
+          "forced": false,
+          "createdAt": "2026-10-23T11:20:58.446Z",
+          "updatedAt": "2026-10-23T11:20:58.446Z",
+          "deletedAt": null
+        },
+        {
+          "id": "58b82abb-bdec-4d27-95a0-5ab40131605d",
+          "profilePostId": "0b40f53b-a56f-48f0-a416-ad8fefc7876a",
+          "impressions": 0,
+          "impressionsUnique": 0,
+          "views": 0,
+          "viewsUnique": 0,
+          "likes": 0,
+          "dislikes": 0,
+          "comments": 0,
+          "shares": 0,
+          "saves": 0,
+          "forced": false,
+          "createdAt": "2026-10-22T11:19:32.877Z",
+          "updatedAt": "2026-10-22T11:19:32.877Z",
+          "deletedAt": null
+        }
+      ],
+      "error": null
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 2,
+    "totalPages": 1
+  }
+}

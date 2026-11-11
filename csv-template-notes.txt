@@ -1,0 +1,18 @@
+Bundle Instagram CSV template - verified 2026-10-20
+
+Scope: URL-based native Bundle CSV import ONLY. This is not a filename-based
+input template for an agent uploading local videos. See
+api-docs-review/findings.txt for the verified local-file agent workflow.
+
+Columns use Bundle's documented CSV import names:
+teamId, title, postDate, status, socialAccountTypes, instagramType,
+instagramText, instagramMediaUrls.
+
+One row per Reel. Use the actual team ID, an internal title, an ISO 8601
+timestamp with timezone, SCHEDULED, INSTAGRAM, REEL, the post caption and
+a downloadable video URL respectively. No filename-matching column is
+documented. The template is header-only; it is not a ready-to-submit batch.
+
+Source: https://info.bundle.social/api-reference/bulk-posts-csv
+Sections: CSV Format, Platform Media URL Columns, Common Platform Columns.
+Import endpoint schema cross-checked: https://api.bundle.social/swagger-json

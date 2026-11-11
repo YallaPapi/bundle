@@ -1,0 +1,78 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://info.bundle.social/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Connect your Reddit account to bundle.social
+
+> Step-by-step guide to connecting your Reddit account to bundle.social. Learn how to authorize permissions and start scheduling Reddit posts.
+
+In this short tutorial you will learn how to connect your Reddit account to bundle.social
+
+<h2>First things first, create a team or be a part of one</h2>
+If you don't know what the teams are, [click here](/knowledge/teams/what-are-teams)
+to get up to speed.
+
+## Connect your Reddit account
+
+bundle.social is built in a way that won't let you down. If you are in a team and
+there is no social account connected, your dashboard will look like this.
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/hdzKNcwHOKKDs1Cc/images/knowledge/social-accounts/youtube/001_youtube.png?fit=max&auto=format&n=hdzKNcwHOKKDs1Cc&q=85&s=0c0be1e305843bba029a81047a89efd5" width="1881" height="910" data-path="images/knowledge/social-accounts/youtube/001_youtube.png" />
+</Frame>
+
+But if you are a new person joining an existing team, you will most likely see the
+**Post** page first. If so, navigate to the left corner of the screen and press the
+**Social accounts** button. Click it and *voilà*, you are in the right place.
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/hdzKNcwHOKKDs1Cc/images/knowledge/social-accounts/youtube/002_youtube.png?fit=max&auto=format&n=hdzKNcwHOKKDs1Cc&q=85&s=90a187c94257c28840e0b125aec72259" width="1900" height="910" data-path="images/knowledge/social-accounts/youtube/002_youtube.png" />
+</Frame>
+
+Now, click **Connect** on the Reddit tile.
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/bcahQIsdvGFrEIjL/images/knowledge/social-accounts/reddit/001_reddit.png?fit=max&auto=format&n=bcahQIsdvGFrEIjL&q=85&s=48921842ce3523d7101cc43f0b6129a4" width="913" height="738" data-path="images/knowledge/social-accounts/reddit/001_reddit.png" />
+</Frame>
+
+You will be asked to log.
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/bcahQIsdvGFrEIjL/images/knowledge/social-accounts/reddit/002_reddit.png?fit=max&auto=format&n=bcahQIsdvGFrEIjL&q=85&s=419e181b1f5242a2e0327369e5bddcc2" width="541" height="683" data-path="images/knowledge/social-accounts/reddit/002_reddit.png" />
+</Frame>
+
+Next, you will see what permissions we need for the app to run. Click **Allow**.
+
+<Note>
+  bundle.social staff does not have access to your account or account keys, we
+  cannot delete your account.
+</Note>
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/bcahQIsdvGFrEIjL/images/knowledge/social-accounts/reddit/003_reddit.png?fit=max&auto=format&n=bcahQIsdvGFrEIjL&q=85&s=865ec21a05e94bf6e5d5af1a78749b6c" width="866" height="522" data-path="images/knowledge/social-accounts/reddit/003_reddit.png" />
+</Frame>
+
+After a successful connection, you will be redirected back to bundle.social, and
+you should see a green popup on the right-hand side, and the Reddit tile button
+should say **Disconnect**.
+
+<Frame type="glass">
+  <img src="https://mintcdn.com/bundlesocial/bcahQIsdvGFrEIjL/images/knowledge/social-accounts/reddit/004_reddit.png?fit=max&auto=format&n=bcahQIsdvGFrEIjL&q=85&s=66816c806707b81124c7f33f405237f7" width="894" height="742" data-path="images/knowledge/social-accounts/reddit/004_reddit.png" />
+</Frame>
+
+## Errors
+
+There should be no errors at this point, but if you encounter one, it might be this:
+
+<Warning>Error connecting to Reddit</Warning>
+This can mean many things outside our control, maybe Reddit had a bug or there was
+a timeout. If you get this error, simply retry. Most often, it will help.
+
+<Warning>
+  You didn't grant all the necessary permissions
+</Warning>
+
+This means that you didn't grant all the permissions we need to post on your behalf. You can try to reconnect and grant all the permissions.
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

@@ -1,0 +1,3571 @@
+[
+  {
+    "url": "https://info.bundle.social/api-reference/introduction.md",
+    "status": "ok",
+    "bytes": 4466,
+    "sha256": "6ca0353ffca287af4cb6a6e68bf644f7faf4e0274e181b47069c985bf7d23adf",
+    "headings": [
+      "# Introduction",
+      "## Authentication",
+      "### The Header",
+      "### Authorization Scheme",
+      "## Base URL",
+      "## Organizations vs Teams",
+      "### What lives where",
+      "### Why this matters for you",
+      "### Finding your team IDs",
+      "## Rate Limits",
+      "## Other ways to use the API"
+    ],
+    "path": "api-docs-review\\api-reference\\introduction.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/health.md",
+    "status": "ok",
+    "bytes": 3953,
+    "sha256": "392b05a7779ad0b07253443cdcd415f89d8bb46822b1fbdabdf4f3342d871953",
+    "headings": [
+      "# Health",
+      "## Endpoint",
+      "## Platform Statuses",
+      "## Recommended Polling",
+      "## Example Usage"
+    ],
+    "path": "api-docs-review\\api-reference\\health.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/openapi.md",
+    "status": "ok",
+    "bytes": 2181,
+    "sha256": "4e8074c1c8fc9c3aabb3eee10302cf0820e0dc8e32bbc3da9792960c3ab05296",
+    "headings": [
+      "# OpenAPI",
+      "## Try It Live",
+      "## Swagger UI",
+      "## Raw Specs",
+      "## Code Generation"
+    ],
+    "path": "api-docs-review\\api-reference\\openapi.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/sdk.md",
+    "status": "ok",
+    "bytes": 2769,
+    "sha256": "f509761f7dec3c59dfd58f524eb23ec286b40df0a5434dbec1374e1e6617ff3a",
+    "headings": [
+      "# SDK",
+      "## Node.js SDK",
+      "### Installation",
+      "# or",
+      "### Quick Setup",
+      "### Common Tasks",
+      "## Prefer a CLI or an AI client?"
+    ],
+    "path": "api-docs-review\\api-reference\\sdk.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/cli.md",
+    "status": "ok",
+    "bytes": 8090,
+    "sha256": "2deb55565d685c2f6e1b9436d9aef320d0353400942a44b40526b0ceb6efc47b",
+    "headings": [
+      "# CLI",
+      "## Install",
+      "## Authenticate",
+      "# optional, if your org has more than one team:",
+      "# optional, for self-hosted/staging:",
+      "## Commands",
+      "### Examples",
+      "# text post to X and Bluesky",
+      "# TikTok video with the required privacy level",
+      "# schedule a thread: post, then add replies as comments",
+      "# Reddit, done right: check requirements + flairs first",
+      "## Output contract (for scripts & agents)"
+    ],
+    "path": "api-docs-review\\api-reference\\cli.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/mcp.md",
+    "status": "ok",
+    "bytes": 7675,
+    "sha256": "fb014e1a826b32e6eb2470b6f379f0d0b6f7cc139dd8b0087d17c8c9075600fe",
+    "headings": [
+      "# MCP Server",
+      "## Tools",
+      "## Configuration",
+      "## Example prompts"
+    ],
+    "path": "api-docs-review\\api-reference\\mcp.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platform-parameters.md",
+    "status": "ok",
+    "bytes": 17115,
+    "sha256": "182a797148394a1f86f9c0bb050cc3c097b744e4648b30fc93796d60850e1863",
+    "headings": [
+      "# Platform parameters",
+      "## X / Twitter - `data.TWITTER`",
+      "## Bluesky - `data.BLUESKY`",
+      "## Mastodon - `data.MASTODON`",
+      "## Threads - `data.THREADS`",
+      "## LinkedIn - `data.LINKEDIN`",
+      "## Facebook (Page) - `data.FACEBOOK`",
+      "## Instagram - `data.INSTAGRAM`",
+      "## TikTok - `data.TIKTOK`",
+      "## YouTube - `data.YOUTUBE`",
+      "## Reddit - `data.REDDIT`",
+      "## Discord - `data.DISCORD`",
+      "## Slack - `data.SLACK`",
+      "## Google Business Profile - `data.GOOGLE_BUSINESS`",
+      "## Pinterest - `data.PINTEREST`",
+      "## Snapchat (Public Profile) - `data.SNAPCHAT`",
+      "## Media notes"
+    ],
+    "path": "api-docs-review\\api-reference\\platform-parameters.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts.md",
+    "status": "ok",
+    "bytes": 4730,
+    "sha256": "3e34fedb1d0c5d566a5bc6a713a4a99f7b0b2d38119a57198825e907450620cd",
+    "headings": [
+      "# Connect Social Accounts",
+      "## Which Flow Should I Use?",
+      "## The Meta Rule",
+      "## Platform Selection Rules"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts/hosted-flow.md",
+    "status": "ok",
+    "bytes": 5462,
+    "sha256": "fd021710115d8dd6ee194ff4af69344b5d2d46f0f9529e9a21038cc2b1895d1b",
+    "headings": [
+      "# Hosted Flow",
+      "## Required Fields",
+      "## OAuth Behavior Fields",
+      "## Hosted UI Fields",
+      "### Supported Languages",
+      "## Hosted Flow Steps"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts\\hosted-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts/custom-ui-flow.md",
+    "status": "ok",
+    "bytes": 6921,
+    "sha256": "abbb2c3970655d7f79b0f07cc6981fe5d56c4036b009d962d9d7bc52d74ee3de",
+    "headings": [
+      "# Custom UI Flow",
+      "## Connect Body",
+      "### Supported Types",
+      "## Platform-Specific Options",
+      "## Basic Flow",
+      "## Fetch The Connected Account",
+      "## Helper Endpoints"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts\\custom-ui-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts/channel-management.md",
+    "status": "ok",
+    "bytes": 4393,
+    "sha256": "19592a37c8a41e40ac99b919af0bcde2d5f1d2cfdc3c50f1c58b4387ccae9509",
+    "headings": [
+      "# Channel Management",
+      "## Set Channel",
+      "### Platforms Requiring Set Channel",
+      "## Meta Rule: Select All First",
+      "## Refresh Channels",
+      "## Unset Channel",
+      "### What Happens",
+      "### Switch Flow"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts\\channel-management.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts/oauth-options.md",
+    "status": "ok",
+    "bytes": 5859,
+    "sha256": "71b83e3c5f8b62e31d09626cd6e498eee1b4c17a464243cc90e4c84b0ea4b0ff",
+    "headings": [
+      "# OAuth Options",
+      "## reconnect",
+      "## disableAutoLogin",
+      "## tiktokForceLogin",
+      "## forceBrowserOAuth",
+      "## withBusinessScope",
+      "## Instagram Connection Method",
+      "## serverUrl"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts\\oauth-options.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/connect-social-accounts/callbacks.md",
+    "status": "ok",
+    "bytes": 5461,
+    "sha256": "a783447fbd01c450cc0ba9a5251ae4ce713782b0291a2e55fe161edd62487bcf",
+    "headings": [
+      "# Callback Parameters",
+      "## Success Callbacks",
+      "## Error Callbacks"
+    ],
+    "path": "api-docs-review\\api-reference\\connect-social-accounts\\callbacks.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/webhooks.md",
+    "status": "ok",
+    "bytes": 11272,
+    "sha256": "28804150ac13f76eeb50ed3fc3a790daa04633be7e2bfb1390fef8d4f05cbe0e",
+    "headings": [
+      "# Webhooks",
+      "## Setup",
+      "## Events",
+      "## Payload Structure",
+      "### Headers We Send",
+      "### Post Events Payload",
+      "### Comment Events Payload",
+      "### Social Account Events Payload",
+      "### Team Events Payload",
+      "## Delivery & Retries",
+      "### Auto-Disable (The Safety Net)",
+      "### Resending Events",
+      "## Remote Disconnection Detection",
+      "### How It Works",
+      "### The `social-account.updated` Payload",
+      "### Status Codes",
+      "### The `deleteOn` Grace Period",
+      "## Best Practices"
+    ],
+    "path": "api-docs-review\\api-reference\\webhooks.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/examples.md",
+    "status": "ok",
+    "bytes": 3628,
+    "sha256": "7725229690d2d52b722066e78aaf44feb06a585c745cc87344885f12e00bde0f",
+    "headings": [
+      "# Examples",
+      "## Select A Channel After OAuth",
+      "## Create A Scheduled Post",
+      "## Fetch Raw Analytics",
+      "## Handle Post Webhooks",
+      "## More Resources"
+    ],
+    "path": "api-docs-review\\api-reference\\examples.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/analytics.md",
+    "status": "ok",
+    "bytes": 15415,
+    "sha256": "ca46cd32ab026ccbc17504b955193317732faef51c78142689910dcc60dd0b88",
+    "headings": [
+      "# Analytics",
+      "## Analytics Refresh & Rate Limits",
+      "### Default Refresh",
+      "### Force Refresh",
+      "### Custom Refresh Periods",
+      "## Data Retention",
+      "## Important Note: Data Differences & Zeros",
+      "## Understanding Analytics",
+      "### Rolling Window",
+      "### Lifetime",
+      "## Raw Analytics Data",
+      "### Raw Endpoints",
+      "### Raw Availability By Platform",
+      "## Platform Summary Table",
+      "## Available Metrics Reference",
+      "### Understanding Return Values",
+      "### Profile Analytics Metrics",
+      "### Post Analytics Metrics",
+      "## Notes"
+    ],
+    "path": "api-docs-review\\api-reference\\analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/data-retention.md",
+    "status": "ok",
+    "bytes": 7446,
+    "sha256": "b05fb8b530d740afeda76928baad06a130b6fff38f478537f3641374cc025292",
+    "headings": [
+      "# Data Retention",
+      "## Analytics Data - 30 Days",
+      "### What You Should Do",
+      "## Webhook Events - 7 Days",
+      "### What You Should Do",
+      "## Deleted Uploads - 2 Days",
+      "## Stale Uploads - 14 Days",
+      "## Imported Posts - 30 Days",
+      "### Monthly Import Counter Reset",
+      "## Direct Messages And Automation Logs - 30 Days",
+      "### Why",
+      "### What You Should Do",
+      "## Summary",
+      "## The Golden Rule"
+    ],
+    "path": "api-docs-review\\api-reference\\data-retention.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/limits.md",
+    "status": "ok",
+    "bytes": 10784,
+    "sha256": "526d792d8b96e4e9c9a1943418cfb4b35693e0db8b8eaf80aeae7fa79929aa5c",
+    "headings": [
+      "# Platform Limits",
+      "## How Validation Works",
+      "## Instagram",
+      "### Posts (Carousel)",
+      "### Reels",
+      "### Stories",
+      "## TikTok",
+      "### Videos",
+      "### Images (Photo Mode)",
+      "## YouTube",
+      "### Shorts",
+      "### Long Form Videos",
+      "## LinkedIn",
+      "## Twitter / X",
+      "## Facebook",
+      "### Page Posts",
+      "### Reels",
+      "### Stories",
+      "## Pinterest",
+      "## Reddit",
+      "### Single Post",
+      "### Gallery Post",
+      "## Threads",
+      "## Discord",
+      "## Slack",
+      "## Mastodon",
+      "## Bluesky",
+      "## Google Business",
+      "## Snapchat",
+      "### Stories",
+      "### Spotlights",
+      "## Quick Reference Table",
+      "## Text & Character Limits"
+    ],
+    "path": "api-docs-review\\api-reference\\limits.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/rate-limits.md",
+    "status": "ok",
+    "bytes": 6631,
+    "sha256": "ad9ff8f961d9222f17c52e4253b73cb6d9b61c48134bf1174d14a31a2da2a789",
+    "headings": [
+      "# Rate Limits",
+      "## No Account Limits",
+      "## API Rate Limits",
+      "### The Three Layers",
+      "## External Platform Rate Limits",
+      "### Posting daily limits per platform per tier",
+      "### Check Daily Usage For One Account",
+      "### Commenting daily limits per platform per tier",
+      "### Monthly organization-wide limits",
+      "## Import Limits",
+      "### Post history imports (monthly, per social account)",
+      "### Comment imports (per post)",
+      "### Google review and Facebook recommendation imports (monthly, per social account)"
+    ],
+    "path": "api-docs-review\\api-reference\\rate-limits.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/import-posts.md",
+    "status": "ok",
+    "bytes": 6323,
+    "sha256": "9fce496811c4181d82e458fd64c4dd56264fab0965c389964744ede98860a55e",
+    "headings": [
+      "# Import Post History",
+      "## How it works",
+      "## Step 1: Start the Job",
+      "### Import filters and media options",
+      "### What `count` means (and `onlyLatest`)",
+      "### Imported post analytics",
+      "## Step 2: Check Status",
+      "## Step 3: Get the Loot",
+      "### `extraData` structure",
+      "## Handling Rate Limits",
+      "## Need More?"
+    ],
+    "path": "api-docs-review\\api-reference\\import-posts.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/bulk-posts-csv.md",
+    "status": "ok",
+    "bytes": 9752,
+    "sha256": "dabb7ef3dbcf9dc00369de6e66c420b221af1aa90cf5a6e957995022d167bbb2",
+    "headings": [
+      "# Bulk Post from CSV",
+      "## How it works",
+      "## Step 1: Upload the CSV",
+      "## Step 2: Poll Progress",
+      "### Status (lightweight)",
+      "### Full import details",
+      "### Import history",
+      "## Step 3: Row Results",
+      "## Import Statuses",
+      "## CSV Format",
+      "### Platform Media URL Columns",
+      "### Common Platform Columns",
+      "## Handling Rate Limits",
+      "## See also"
+    ],
+    "path": "api-docs-review\\api-reference\\bulk-posts-csv.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/upload-content.md",
+    "status": "ok",
+    "bytes": 9747,
+    "sha256": "64922084f68ef2823dd5b2c908bd48c7edf6d45d7d466a3090ec36b121f91506",
+    "headings": [
+      "# Media Upload",
+      "## Overview",
+      "## Method 1: Multipart Upload (The Pro Way)",
+      "### Step 1: Initialize",
+      "### Step 2: PUT each part - and keep every ETag",
+      "# HTTP/1.1 200 OK",
+      "# ETag: \"d41d8cd98f00b204e9800998ecf8427e\"",
+      "### Step 3: Complete",
+      "### Handling errors on complete",
+      "### Giving up",
+      "## Method 2: Direct Upload",
+      "### Step 1: Initialize",
+      "### Step 2: Push the Bytes",
+      "### Step 3: Finalize",
+      "## Method 3: Simple Upload (The Lazy Way)",
+      "## Upload from a URL",
+      "## Supported Formats & Limits",
+      "## Video Compression",
+      "### How to enable",
+      "### What happens"
+    ],
+    "path": "api-docs-review\\api-reference\\upload-content.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/errors.md",
+    "status": "ok",
+    "bytes": 59839,
+    "sha256": "8c3785a1cf554bed6411759ae759aff7e9d8142ef7288e530d17248e7499c600",
+    "headings": [
+      "# Errors",
+      "## The Error Object",
+      "## Key Fields",
+      "## Common Error Prefixes",
+      "## Transient vs. Non-Transient",
+      "## Most Common Platform Errors",
+      "### Facebook",
+      "### Instagram",
+      "### TikTok",
+      "### YouTube",
+      "### LinkedIn",
+      "### X / Twitter",
+      "### Threads",
+      "### Pinterest",
+      "### Reddit",
+      "### Bluesky",
+      "### Google Business",
+      "### Mastodon"
+    ],
+    "path": "api-docs-review\\api-reference\\errors.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/comments.md",
+    "status": "ok",
+    "bytes": 11687,
+    "sha256": "388d68448e33873876956804dffd60700bfc22d5ed46d84b5f84bf8f1e3afa88",
+    "headings": [
+      "# Comments",
+      "## Supported Platforms",
+      "### Comment Text Limits",
+      "## Before You Start",
+      "## Flow of comments API",
+      "### Step 1: Start Import",
+      "### Why Import Can Be Rejected",
+      "### Step 2: Track Progress",
+      "### Step 3: Get Imported Comments",
+      "## What Exactly Gets Imported",
+      "## How To Display Comments In Your App",
+      "### Plain-Language Rule",
+      "### Recommended Rendering Steps",
+      "## Replying To Imported Comments",
+      "### What Happens After You Send Reply",
+      "## Creating A Top-Level Comment",
+      "## List Created Comments",
+      "## Actions On Fetched Comments",
+      "## Retry A Failed Comment",
+      "## Limits Explained",
+      "### Per Import Storage Limit (Per Post)",
+      "### Is There a Monthly Comment Import Quota?",
+      "### Reply Text Limits By Platform",
+      "## Quick FAQ",
+      "### \"Why comments list is empty?\"",
+      "### \"Why does creating a comment fail?\"",
+      "### \"Why I see comment without parent?\"",
+      "### \"Do I need webhooks for comment import?\"",
+      "### \"Will you have webhooks for this?\""
+    ],
+    "path": "api-docs-review\\api-reference\\comments.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages.md",
+    "status": "ok",
+    "bytes": 13216,
+    "sha256": "4baa46433868ac9eb943133fc27a9e72b6dc6f373212c1a049a02dd89001cbea",
+    "headings": [
+      "# Direct Messages",
+      "## Try It In The Dashboard",
+      "## In This Section",
+      "## All Endpoints",
+      "## Supported Platforms",
+      "## Plans And Limits",
+      "## How It Works",
+      "### Conversations And Messages",
+      "### The 24-Hour Rule",
+      "### Message Status",
+      "## Errors",
+      "## Quick FAQ",
+      "### \"I enabled messaging but no conversations show up.\"",
+      "### \"Can I start a conversation with anyone?\"",
+      "### \"How far back does the message history go?\"",
+      "### \"Can I message someone after 24 hours?\"",
+      "### \"Do messages from the Instagram app show up too?\"",
+      "### \"Is there a WebSocket?\""
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages/setup.md",
+    "status": "ok",
+    "bytes": 4143,
+    "sha256": "be791891455bc9fed808c62aba76d9de59114b198d118fe4eb6c1a95315e71d0",
+    "headings": [
+      "# Setup",
+      "## Step 1: Connect With Messaging Permissions",
+      "## Step 2: Subscribe The Account To Messages",
+      "## Turning It Off"
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages\\setup.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages/conversations.md",
+    "status": "ok",
+    "bytes": 7798,
+    "sha256": "91f2770c2be8bd5e7dca032452d6335b0b2d3c8f20e35899dfdbacee7b403f46",
+    "headings": [
+      "# Conversations",
+      "## List Conversations",
+      "## Pagination",
+      "## Read Messages",
+      "## Mark As Read",
+      "## Archive And Reopen"
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages\\conversations.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages/sending-messages.md",
+    "status": "ok",
+    "bytes": 6122,
+    "sha256": "18cd76a3639c08cc896b5013990ff6e7b3f89e2bce9aceebd46a3ab3074599de",
+    "headings": [
+      "# Sending Messages",
+      "## Send A Message",
+      "## Message Content",
+      "## React To A Message"
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages\\sending-messages.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages/private-replies.md",
+    "status": "ok",
+    "bytes": 3034,
+    "sha256": "e0a6940883a44f1b920889a1c9eec2d80871af77f60ad89abc5a70f061f482dd",
+    "headings": [
+      "# Private Replies"
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages\\private-replies.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/direct-messages/webhooks.md",
+    "status": "ok",
+    "bytes": 4906,
+    "sha256": "3eca8e8caf54de6216144b2f7722375a520678bfb05cac8aa963ff955a47842e",
+    "headings": [
+      "# DM Webhooks",
+      "## Example: A Tiny Inbox Handler"
+    ],
+    "path": "api-docs-review\\api-reference\\direct-messages\\webhooks.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations.md",
+    "status": "ok",
+    "bytes": 18510,
+    "sha256": "a01c8c1d2b3f5dc251d0f8010c200112186b57cbe7bf9e444ced536025c04729",
+    "headings": [
+      "# Automations",
+      "## Try It In The Dashboard",
+      "## In This Section",
+      "## All Endpoints",
+      "## Which Tool Do I Need?",
+      "## Supported Platforms",
+      "## Plans And Limits",
+      "## Before You Start",
+      "### Where The IDs Come From",
+      "## How It Works",
+      "### Drafts And Publishing",
+      "## Capabilities By Platform",
+      "### Triggers",
+      "### Steps",
+      "### Which Steps Fit Which Trigger",
+      "## Quick FAQ",
+      "### \"My flow is ACTIVE but nothing happens.\"",
+      "### \"Can one comment or message trigger several flows?\"",
+      "### \"Why did someone get two replies to one message?\"",
+      "### \"Why did my automation ignore someone's second message?\"",
+      "### \"My TikTok flow sometimes fails on the reply or like step.\"",
+      "### \"Can one flow cover all my posts?\"",
+      "### \"Can I stop automations for one conversation when a human takes over?\"",
+      "### \"How do I reply to a comment by hand?\"",
+      "### \"Can I DM everyone who commented, not just reply?\"",
+      "### \"Does it work on posts I didn't publish through bundle.social?\"",
+      "### \"Is there a visual flow builder?\""
+    ],
+    "path": "api-docs-review\\api-reference\\automations.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/building-flows.md",
+    "status": "ok",
+    "bytes": 7896,
+    "sha256": "0a0fdbe74492824811452f8cc93bed59f3fbc9bc5d0de5828a93966b97f6a8ab",
+    "headings": [
+      "# Building Flows",
+      "## Trigger Fields",
+      "## Delays",
+      "## Condition Steps",
+      "## Step IDs",
+      "## Messages In Automations",
+      "## Send A Rich Message By Hand"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\building-flows.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/managing-flows.md",
+    "status": "ok",
+    "bytes": 7904,
+    "sha256": "5fbbc146f8dbe484cbb9db24ecde2d22f2609b187dfbcbd88f22842817155891",
+    "headings": [
+      "# Managing Flows",
+      "## Lifecycle",
+      "## The Flow Object",
+      "## List Flows",
+      "## Create, Edit, Publish",
+      "## Pause, Activate, Archive, Delete",
+      "## Copy Flows Between Teams"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\managing-flows.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/how-flows-behave.md",
+    "status": "ok",
+    "bytes": 6827,
+    "sha256": "5fd7a2044eb91053546dec23c470916b7c387e5f3705aa26477d122c02f1f4d6",
+    "headings": [
+      "# How Flows Behave",
+      "## Comment Flows",
+      "## DM Flows",
+      "## When Something Fails",
+      "## Safety Limits"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\how-flows-behave.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/testing-and-logs.md",
+    "status": "ok",
+    "bytes": 7080,
+    "sha256": "88819d95587bedbff8181965a8efdd7f9c3bad685a60bf8c3b777404fcbcba10",
+    "headings": [
+      "# Testing & Execution Logs",
+      "## Test A Flow",
+      "## Executions",
+      "### Execution Status",
+      "### Error Codes Worth Knowing"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\testing-and-logs.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/provider-settings.md",
+    "status": "ok",
+    "bytes": 4339,
+    "sha256": "ca8b2552744d1b9468902379974256f5fb3370b1b65ffda8abb01030bd57a747",
+    "headings": [
+      "# Ice Breakers & Persistent Menu",
+      "## Save, Then Sync"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\provider-settings.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/webhooks.md",
+    "status": "ok",
+    "bytes": 3004,
+    "sha256": "abf0b30b8d65ba28dde72f4278b90a0a12065de0b7794df2ec0b0b3b68d11ad0",
+    "headings": [
+      "# Automation Webhooks"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\webhooks.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/automations/recipes.md",
+    "status": "ok",
+    "bytes": 6204,
+    "sha256": "975b6a396057c6f5c04a2b5001ecff1ebd660800924e7bdc41a25b24c5db569d",
+    "headings": [
+      "# Recipes",
+      "## Comment \"LINK\" \u2192 Get A DM",
+      "## DM Flow With Quick Replies",
+      "## TikTok: Reply And Like",
+      "## Route By Keyword With A Condition",
+      "## Monitor Your Automations From Your Backend"
+    ],
+    "path": "api-docs-review\\api-reference\\automations\\recipes.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/index.md",
+    "status": "ok",
+    "bytes": 3378,
+    "sha256": "8fafa3eeec7bc7613cf7121c68170f515fa076178904674dd60b74b6dfb6fbeb",
+    "headings": [
+      "# Platforms Overview",
+      "## Supported Platforms",
+      "## The \"Unified\" API Myth"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\index.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/instagram.md",
+    "status": "ok",
+    "bytes": 16347,
+    "sha256": "f564d988fa31390e41bcf07ad285d596b15e7bceaa21f116aff7a44456af953f",
+    "headings": [
+      "# Instagram",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Aspect Ratios are Law",
+      "### What if I have non-standard content?",
+      "### Stories vs. Reels vs. Posts",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "### Instagram Misc Endpoints",
+      "### Publishing Payload & Validation Rules",
+      "## Analytics",
+      "### Refresh Rate & Limits",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Raw Analytics - Demographics & Audience Data"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\instagram.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/instagram-music.md",
+    "status": "ok",
+    "bytes": 4273,
+    "sha256": "834bb7bef7bb44613ef00b84746763992e24ad20a208fb9a2c08de1c532704e4",
+    "headings": [
+      "# Instagram Music Library",
+      "## The Endpoint",
+      "### Query Parameters",
+      "## Response Shape",
+      "## Using Audio In Reels",
+      "### Audio Fields",
+      "## Rules",
+      "## Quick Reference"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\instagram-music.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/facebook.md",
+    "status": "ok",
+    "bytes": 8763,
+    "sha256": "7e4c6bdd3707f9d4b8d02a756076f2eb93e3e6f31340e0fb95868d0493f40c19",
+    "headings": [
+      "# Facebook",
+      "## Supported Content Types",
+      "## Page Reviews",
+      "## Quirks & Gotchas",
+      "### Page Tokens Expire (Important!)",
+      "### Reels Limitations",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Page Mentions",
+      "### Find a Page ID",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Reaction Aggregation",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\facebook.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/facebook-page-reviews.md",
+    "status": "ok",
+    "bytes": 6734,
+    "sha256": "f13ae23af5800d79947ed5a8cb92b9f46dba1d9066862071e1ba57a638aa4a7b",
+    "headings": [
+      "# Facebook Page Reviews",
+      "## How it works",
+      "## Step 1: Start the Import",
+      "### Rules & Limits",
+      "## Step 2: Check Import Status",
+      "### Statuses",
+      "## Step 3: Fetch Imported Reviews",
+      "### Query Parameters (`GET /recommendations`)",
+      "## Step 4: Reply to Reviews",
+      "### Reply to a Review",
+      "### Fetch Thread Comments",
+      "### Reply to a Thread Comment",
+      "## Quirks & Gotchas",
+      "### Reviews Are Recommendations",
+      "### Some Reviews Cannot Be Replied To",
+      "### Incremental Sync",
+      "### Temporary `RATE_LIMITED` Is Normal",
+      "### Capacity Is Per Social Account"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\facebook-page-reviews.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/linkedin.md",
+    "status": "ok",
+    "bytes": 10404,
+    "sha256": "99ece4e6976a74dabbb5477f87d3016bfe42ed52066f2df5ef1f4e61d04f881f",
+    "headings": [
+      "# LinkedIn",
+      "## Quirks & Gotchas",
+      "### Personal vs. Organization",
+      "### Article / Link Preview",
+      "### The URN Nightmare",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Mentions And Published Post Actions",
+      "### Resolve Mentionable People And Organizations",
+      "### Reshare A LinkedIn Post",
+      "### Edit Or Delete Published Content",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Raw Analytics",
+      "### Quirks"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\linkedin.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/tiktok.md",
+    "status": "ok",
+    "bytes": 9430,
+    "sha256": "fa9272f3da754f36071beec9bd0dffb3a9a1a76935843c78a0166567ea88224b",
+    "headings": [
+      "# TikTok",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Privacy Levels & Permalinks",
+      "### Music & Copyright",
+      "### Image Format (Photo Mode)",
+      "### Image sizing (Photo Mode)",
+      "### The REVIEW Status",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics - Demographics & Audience Data"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\tiktok.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/tiktok-music.md",
+    "status": "ok",
+    "bytes": 5374,
+    "sha256": "6e91edf1d4fab9ffcb1f412b22a8e02408cfc8e30178d721366a4ea28ddc9fd0",
+    "headings": [
+      "# TikTok Music (CML)",
+      "## The Endpoint",
+      "### Query Parameters",
+      "### Response Shape",
+      "## Supported Genres",
+      "## Using Music in Posts",
+      "### Video vs Image: Different Rules",
+      "### Video: Volume & Trim",
+      "## The Draft Gotcha",
+      "## INBOX status (Draft Success)",
+      "## Quick Reference"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\tiktok-music.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/youtube.md",
+    "status": "ok",
+    "bytes": 13818,
+    "sha256": "ac48e6824b0538b341757d6172754628ff3ca79ec3c418de4de99a943e20febb",
+    "headings": [
+      "# YouTube",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### \"Made for Kids\" (COPPA)",
+      "### Shorts Detection",
+      "### YouTube Title is Required",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile (Channel) Analytics",
+      "### Post (Video) Analytics",
+      "### Quirks",
+      "### Raw Analytics - Demographics & Audience Data"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\youtube.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/snapchat.md",
+    "status": "ok",
+    "bytes": 6118,
+    "sha256": "2e7cb3032633b89fa21706a93956f6925fcc18e5eedda7d46faf0bb97a56a4df",
+    "headings": [
+      "# Snapchat",
+      "## Supported Content Types",
+      "## Post Options",
+      "### Story Example",
+      "### Spotlight Example",
+      "## Media Limits",
+      "### Stories",
+      "### Saved Stories",
+      "### Spotlights",
+      "## Troubleshooting",
+      "## Publishing Behavior",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Story And Spotlight Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\snapchat.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/twitter.md",
+    "status": "ok",
+    "bytes": 4315,
+    "sha256": "1355cec8fe0e7467ecf87a99a704204225f16ff1107dda0e1d00cdd78cccae51",
+    "headings": [
+      "# Twitter / X",
+      "## Billing",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Media Limits",
+      "### Text & Subscription-Based Limits",
+      "## Post Options",
+      "## Reply Settings",
+      "## Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\twitter.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/threads.md",
+    "status": "ok",
+    "bytes": 7995,
+    "sha256": "968b4d8a6ca265abadf4d00f70a322fafd5ef753a319791037362bea9edc8a34",
+    "headings": [
+      "# Threads",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Terminology",
+      "### Date Restrictions",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Reply Control",
+      "## Polls",
+      "## GIFs",
+      "## Text-Only Attachment Rules",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\threads.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/pinterest.md",
+    "status": "ok",
+    "bytes": 5222,
+    "sha256": "20b878b86259e34ac5f5c9f269e2dc9e552b2a25fc669252b412057b5ff075bb",
+    "headings": [
+      "# Pinterest",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Board Name is Required",
+      "### Terminology",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\pinterest.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/reddit.md",
+    "status": "ok",
+    "bytes": 4746,
+    "sha256": "09520a8ac31a7b1d8fbc9de585a019627753d13323983cc18f6d784c25b33668",
+    "headings": [
+      "# Reddit",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Subreddit Rules are King",
+      "### Engagement Terminology",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\reddit.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/mastodon.md",
+    "status": "ok",
+    "bytes": 4752,
+    "sha256": "ae40462b3f00b347aeaac36e3514eccd4359e35e3b42b3240fcd422929a6cc35",
+    "headings": [
+      "# Mastodon",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Terminology",
+      "### Character Limits",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\mastodon.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/bluesky.md",
+    "status": "ok",
+    "bytes": 6394,
+    "sha256": "b5d6acbc365cb83bccbb329da5c6658405fa55303c7070bce061336264a63683",
+    "headings": [
+      "# Bluesky",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### \"Calculated\" Impressions",
+      "### Limited But Growing",
+      "### Media Limits",
+      "### Video Upload Eligibility",
+      "### Text & Field Limits",
+      "## Post Options",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Quirks",
+      "### Raw Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\bluesky.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/discord.md",
+    "status": "ok",
+    "bytes": 2857,
+    "sha256": "79c81fa967ea3fd85e805d105cf443756fdb64e68b0bf76b5c7db82977e6adba",
+    "headings": [
+      "# Discord",
+      "## Quirks & Gotchas",
+      "### Webhook-Based Posting",
+      "### Channel Selection Required",
+      "### Custom Bot Identity",
+      "## Post Options",
+      "## Media Limits",
+      "### Text & Field Limits",
+      "## Analytics",
+      "## Example"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\discord.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/slack.md",
+    "status": "ok",
+    "bytes": 2690,
+    "sha256": "00004aed425b05eeb0c29d2dc080c2c7a1ebf67eaf25e022052e1971d41667b9",
+    "headings": [
+      "# Slack",
+      "## Quirks & Gotchas",
+      "### Webhook-Based Posting",
+      "### Channel Selection Required",
+      "### Generous Character Limit",
+      "### Custom Bot Identity",
+      "## Post Options",
+      "## Media Limits",
+      "### Text & Field Limits",
+      "## Analytics",
+      "## Example"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\slack.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business.md",
+    "status": "ok",
+    "bytes": 9865,
+    "sha256": "58369826b185063149f6ed3e267cdd7034446fe19549819a666bbadcdbd7eee8",
+    "headings": [
+      "# Google Business",
+      "## Location, profile, and Maps data",
+      "## Feature availability by category and location",
+      "## Supported Content Types",
+      "## Quirks & Gotchas",
+      "### Location Selection Required",
+      "### Post Types",
+      "### Call to Action",
+      "### Media Limits",
+      "### Text & Field Limits",
+      "## Google Reviews",
+      "## Post Options",
+      "### Event-Specific Fields",
+      "### Offer-Specific Fields",
+      "## Analytics",
+      "### Profile Analytics",
+      "### Post Analytics",
+      "### Raw Analytics",
+      "## Examples",
+      "### Standard Post",
+      "### Event Post",
+      "### Offer Post"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-location.md",
+    "status": "ok",
+    "bytes": 8288,
+    "sha256": "dfaeea3e41041cb15be588a5dbc2de933ab2545903bcef974460c4d9c71a8fc7",
+    "headings": [
+      "# Google Business Location & profile",
+      "## Get location",
+      "### Query",
+      "## Update location",
+      "### Patchable fields",
+      "### Other body keys",
+      "### Useful metadata for feature eligibility",
+      "### Find Available Categories",
+      "### Example: title, description, and hours (anonymized)",
+      "### Smaller payloads",
+      "### Hours only",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-location.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-hours.md",
+    "status": "ok",
+    "bytes": 5155,
+    "sha256": "abda4b5565d724dbcfe3b1f5a76d255389b538db3ab07126f21aa869eb3f3f2b",
+    "headings": [
+      "# Google Business Hours",
+      "## Body rules",
+      "## Time and day shapes",
+      "## Example: full hours update payload (anonymized)",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-hours.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-attributes.md",
+    "status": "ok",
+    "bytes": 5945,
+    "sha256": "fe56522e62dcf8faa5a6ebb2932e7c91984f73c6f371ba1f842f54eb5f31aa6f",
+    "headings": [
+      "# Google Business Attributes",
+      "## Get current attributes",
+      "## Value types (response and request)",
+      "## List available attribute definitions",
+      "### Google-side selection context",
+      "## Update attributes",
+      "### Body",
+      "### Example: many boolean attributes (sample ids)",
+      "### Example: enum-style attribute",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-attributes.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-service-list.md",
+    "status": "ok",
+    "bytes": 3081,
+    "sha256": "8a3ea0ef75050489d89b5fe5fb2f9ede32789718b840231f44756b707305390c",
+    "headings": [
+      "# Google Business Service list",
+      "## Get service list",
+      "## Update service list",
+      "### Example",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-service-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-food-menus.md",
+    "status": "ok",
+    "bytes": 2854,
+    "sha256": "3bcde97ee0d94964ec5429343b4eccab3552093e0f3cdab97d00b488ce575cee",
+    "headings": [
+      "# Google Business Food menus",
+      "## Get food menus",
+      "## Update food menus",
+      "### Example (minimal structure)",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-food-menus.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-place-action-links.md",
+    "status": "ok",
+    "bytes": 5404,
+    "sha256": "5a957308fe7ffa9124f0bb97a4b75adf0f4cb4a058f98d843478874ded2c71de",
+    "headings": [
+      "# Google Business Place action links",
+      "## Google `PlaceActionLink` resource fields",
+      "## `placeActionType` values",
+      "### `providerType` values (output-only)",
+      "### How availability is determined in Google",
+      "## List links",
+      "## Create link",
+      "### Body",
+      "### Example (nested-only payload)",
+      "## Update link",
+      "### Example",
+      "## Delete link",
+      "## Availability caveats",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-place-action-links.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-profile-media.md",
+    "status": "ok",
+    "bytes": 2883,
+    "sha256": "41f7f8c1cb5cde1e49d10c5586e5d12e7ce2357edf143c4656c56af6c77ebd34",
+    "headings": [
+      "# Google Business Profile media",
+      "## List media",
+      "## Delete media",
+      "## Add media (upload)",
+      "### Example",
+      "## Related"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-profile-media.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/platforms/google-business-reviews.md",
+    "status": "ok",
+    "bytes": 5826,
+    "sha256": "af1bf82be19075e26ab54484eedef0ab257270dd0d2e5e7a44d47cdc90493b1d",
+    "headings": [
+      "# Google Business Reviews",
+      "## How it works",
+      "## Step 1: Start the Import",
+      "### Rules & Limits",
+      "## Step 2: Check Import Status",
+      "### Statuses",
+      "## Step 3: Fetch Imported Reviews",
+      "### Query Parameters (`GET /reviews`)",
+      "## Step 4: Reply to Reviews",
+      "### Create or Update Reply",
+      "### Delete Reply",
+      "## Quirks & Gotchas",
+      "### Incremental Sync (No Duplicate Spam)",
+      "### Overlap Window for Edits",
+      "### Temporary `RATE_LIMITED` Is Normal",
+      "### Capacity Is Per Social Account"
+    ],
+    "path": "api-docs-review\\api-reference\\platforms\\google-business-reviews.md"
+  },
+  {
+    "url": "https://info.bundle.social/guides/building-scheduler.md",
+    "status": "ok",
+    "bytes": 14075,
+    "sha256": "023c2964433e2aacb81af70d2f4ea94bb8022207532661f0254d7e9f8c34903a",
+    "headings": [
+      "# Building a Scheduler",
+      "## The Architecture",
+      "## Post Status Lifecycle",
+      "### Status Breakdown",
+      "### Retry Logic",
+      "## Step 1: Connect Accounts",
+      "## Step 2: Import History (Optional but Recommended)",
+      "## Step 3: Upload Media",
+      "## Step 4: Create the Post",
+      "### Schedule for the Future",
+      "### Save as Draft",
+      "### Platform-Specific Data Options",
+      "## Step 5: Edit or Cancel",
+      "### Update a Scheduled Post",
+      "### Delete a Scheduled Post",
+      "## Step 6: Handle the Results",
+      "### Option A: Webhooks (Recommended)",
+      "### Option B: Polling",
+      "### Error Notifications",
+      "## Bulk Scheduling",
+      "### Rate Limits",
+      "### Best Approach",
+      "## Best Practices",
+      "### 1. Validate Before Scheduling",
+      "### 2. Timezones. Seriously.",
+      "### 3. First Comment Strategy",
+      "### 4. Remember Data Retention",
+      "### 5. Handle the REVIEW Status",
+      "### 6. Don't Forget `madeForKids` on YouTube"
+    ],
+    "path": "api-docs-review\\guides\\building-scheduler.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/app/get-health.md",
+    "status": "ok",
+    "bytes": 16039,
+    "sha256": "9f97c72e8a22befe3e071c25580b1aba7e60e176242d50d6a9d406302c1f4733",
+    "headings": [
+      "# Get health"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\app\\get-health.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-organization.md",
+    "status": "ok",
+    "bytes": 25397,
+    "sha256": "39e013ef7128b8c3f398c4e5ba6f479912c2d2197ba47bea2e06a59f1760fc33",
+    "headings": [
+      "# Get organization"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-organization.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-organization-posts-usage.md",
+    "status": "ok",
+    "bytes": 7023,
+    "sha256": "ca0346276929c104e20e43a39269a878ff2761ff41cca8351c7cbaf6fdb50149",
+    "headings": [
+      "# Get organization posts usage"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-organization-posts-usage.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-organization-comments-usage.md",
+    "status": "ok",
+    "bytes": 6922,
+    "sha256": "2c7b8032b6aa4306711a1274d6476fc1c363e70f04e6ab06ec1f4e66be550c93",
+    "headings": [
+      "# Get organization comments usage"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-organization-comments-usage.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-organization-uploads-usage.md",
+    "status": "ok",
+    "bytes": 6931,
+    "sha256": "7fa0ffc7a665460a263e8bf3feb18647f789a2305229f299634b331a4a7fee63",
+    "headings": [
+      "# Get organization uploads usage"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-organization-uploads-usage.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-daily-limits-usage-for-one-social-account-on-a-given-day.md",
+    "status": "ok",
+    "bytes": 8817,
+    "sha256": "740abd16569334991b9d7be8aa4f3e2d62014113f1c1e6a6b18a0801e3c81704",
+    "headings": [
+      "# Get daily limits usage for one social account on a given day"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-daily-limits-usage-for-one-social-account-on-a-given-day.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/organization/get-organization-imports-usage-per-social-account-paginated.md",
+    "status": "ok",
+    "bytes": 9505,
+    "sha256": "6cd7943e5ccaf3207ae1bb2af22fadacd7b9362c13b88f4be654633d41d20dc3",
+    "headings": [
+      "# Get organization imports usage per social account (paginated)"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\organization\\get-organization-imports-usage-per-social-account-paginated.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/team/get-team.md",
+    "status": "ok",
+    "bytes": 28430,
+    "sha256": "a750fb359c21e794636cc0b4a4914a76535a9fc2cd1d7f61b2b81bab4caee154",
+    "headings": [
+      "# Get team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\team\\get-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/team/delete-team.md",
+    "status": "ok",
+    "bytes": 7601,
+    "sha256": "3cbb076d527b3e5050834a792d83be256c64b66f7431986e632d756bb7f20dfd",
+    "headings": [
+      "# Delete team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\team\\delete-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/team/update-team.md",
+    "status": "ok",
+    "bytes": 7943,
+    "sha256": "9b43c145e1ab7d8ffd5af531ef52aa1a38586f464027d89711048aed9e5c140f",
+    "headings": [
+      "# Update team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\team\\update-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/team/get-list-of-teams.md",
+    "status": "ok",
+    "bytes": 32488,
+    "sha256": "6ac9e3edbb91a3c12a2889ab0477810967ebf8a350ab2eb092ae8c6f05ff0c56",
+    "headings": [
+      "# Get list of teams"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\team\\get-list-of-teams.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/team/create-new-team.md",
+    "status": "ok",
+    "bytes": 7999,
+    "sha256": "8da77a571bb5fd4bc6a9c9c60b0ec6fbda43789e77adc6ac593776e765116b05",
+    "headings": [
+      "# Create new team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\team\\create-new-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/connect-social-account-for-team.md",
+    "status": "ok",
+    "bytes": 11395,
+    "sha256": "0cea2e00e3de1779357e1ab59d3db55d1cb87112424fc7c32771f33a2e14ef83",
+    "headings": [
+      "# Connect social account for team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\connect-social-account-for-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/disconnect-social-account-from-team.md",
+    "status": "ok",
+    "bytes": 13284,
+    "sha256": "b3d44dcec993a6b6d91b963a790f3c2c02105426ef65f91ca5fd3deb3725d429",
+    "headings": [
+      "# Disconnect social account from team"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\disconnect-social-account-from-team.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/set-channel-for-social-account.md",
+    "status": "ok",
+    "bytes": 13111,
+    "sha256": "60fbdf2f3d509eba27ec6ed1adbc6c025a18fbeb76390e101640e1a8cfd3a83c",
+    "headings": [
+      "# Set channel for social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\set-channel-for-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/unset-channel-for-social-account.md",
+    "status": "ok",
+    "bytes": 12976,
+    "sha256": "30daba56c263b6e84142843ee0283fe6976fe896244b165cd23633c77ef43974",
+    "headings": [
+      "# Unset channel for social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\unset-channel-for-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/refresh-channels-for-social-account.md",
+    "status": "ok",
+    "bytes": 13269,
+    "sha256": "16c70ebce7838f830bb57ea907e45a8bec36578661047537130e6716a56babeb",
+    "headings": [
+      "# Refresh channels for social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\refresh-channels-for-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/create-portal-link.md",
+    "status": "ok",
+    "bytes": 11878,
+    "sha256": "1b21222b319dd2ca438e88d18f05e92539dfaf390c9d3f4cd1dac8cce93d28a8",
+    "headings": [
+      "# Create portal link"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\create-portal-link.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/enable-dm-messaging-for-a-social-account.md",
+    "status": "ok",
+    "bytes": 8396,
+    "sha256": "fc6aec3b2b91d85b5ede3e0dff3b7628c6c6618a05cbc7748fd13ee9db5e67a5",
+    "headings": [
+      "# Enable DM messaging for a social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\enable-dm-messaging-for-a-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/disable-dm-messaging-for-a-social-account.md",
+    "status": "ok",
+    "bytes": 8123,
+    "sha256": "e2fd593bba912632beaf20697ffdcc0ebc8656f2e5620956e5240e89f559bff4",
+    "headings": [
+      "# Disable DM messaging for a social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\disable-dm-messaging-for-a-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/manually-run-connectiondisconnect-check.md",
+    "status": "ok",
+    "bytes": 8531,
+    "sha256": "2353e9029e8716edbe7ffed6af4cfcfec3f9e9f422b04a438f13ed29f71a8dee",
+    "headings": [
+      "# Manually run connection/disconnect check"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\manually-run-connectiondisconnect-check.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/manually-refresh-social-account-profile-info.md",
+    "status": "ok",
+    "bytes": 15194,
+    "sha256": "e96e78b8c698a1a821aa72610dfa28eba70fa33c3d2f0e38866c938a0f42f4d3",
+    "headings": [
+      "# Manually refresh social account profile info"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\manually-refresh-social-account-profile-info.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/get-social-account-by-team-and-type.md",
+    "status": "ok",
+    "bytes": 13264,
+    "sha256": "fd5f91d3cf88bbd4a455dfedf3d18621cba2a61eaecab6dd7b061ee74782f424",
+    "headings": [
+      "# Get social account by team and type"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\get-social-account-by-team-and-type.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/copy-social-accounts.md",
+    "status": "ok",
+    "bytes": 14407,
+    "sha256": "9a98929b0bb6f3ea68d0a3b4835b2b6c6ff9b09b62a940cbc01be25d1a98ee09",
+    "headings": [
+      "# Copy social accounts"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\copy-social-accounts.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/socialaccount/get-paginated-social-accounts-scheduled-to-delete.md",
+    "status": "ok",
+    "bytes": 14695,
+    "sha256": "4a62a485cb95a8c3e9bc236adb8cb00387fdc9b5864515e8920445758d13e384",
+    "headings": [
+      "# Get paginated social accounts scheduled to delete"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\socialaccount\\get-paginated-social-accounts-scheduled-to-delete.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/get-upload-list.md",
+    "status": "ok",
+    "bytes": 12120,
+    "sha256": "900d630bbea286e72a96b57a7ca364a22f2a800d70a453ad6065e542dfa3b276",
+    "headings": [
+      "# Get upload list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\get-upload-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/create-upload.md",
+    "status": "ok",
+    "bytes": 9023,
+    "sha256": "b9beba1e30f32cd4931fb3bc6cc18ded5b166e91e04741336302d78dcfb34631",
+    "headings": [
+      "# Create upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\create-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/delete-many-uploads.md",
+    "status": "ok",
+    "bytes": 9350,
+    "sha256": "063ceb425ba7c38ee05f4c7aea1f5d0f52a08d3101f5609d5b12e7123a493294",
+    "headings": [
+      "# Delete many uploads"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\delete-many-uploads.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/get-upload.md",
+    "status": "ok",
+    "bytes": 9795,
+    "sha256": "6bf635aa259e755d573579f14825372738527d91307d339fe7ece1bc59b7510b",
+    "headings": [
+      "# Get upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\get-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/delete-upload.md",
+    "status": "ok",
+    "bytes": 8888,
+    "sha256": "07e1d0a5da39a32ae7650233c8066f4c46c06eca5924b1ea18d3a57b96498662",
+    "headings": [
+      "# Delete upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\delete-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/create-upload-from-url.md",
+    "status": "ok",
+    "bytes": 9337,
+    "sha256": "d2b49d4749723711179dfb4141e1de26bc9c9d0e14a99132f2ce7389e78fb8df",
+    "headings": [
+      "# Create upload from URL"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\create-upload-from-url.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/initialize-large-upload.md",
+    "status": "ok",
+    "bytes": 7538,
+    "sha256": "3b3e8a36154765dfe34021481b55c697313cca26b397d30d5a6d323c812bda96",
+    "headings": [
+      "# Initialize large upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\initialize-large-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/finalize-large-upload.md",
+    "status": "ok",
+    "bytes": 8948,
+    "sha256": "0588c4a21c65956129d9684c085e2b298563e8db36a89b8f3da88f7ea62472de",
+    "headings": [
+      "# Finalize large upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\finalize-large-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/initialize-multipart-upload.md",
+    "status": "ok",
+    "bytes": 8795,
+    "sha256": "41544cfc5a644e5ad850e22c674ef5161438d27320cc30e16bd7b214bb614ba7",
+    "headings": [
+      "# Initialize multipart upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\initialize-multipart-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/re-sign-multipart-upload-parts.md",
+    "status": "ok",
+    "bytes": 8001,
+    "sha256": "d4856fa6afbae776b912ff589335fd75b1f059c7413e211f3c0e681b5ca7fbd9",
+    "headings": [
+      "# Re-sign multipart upload parts"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\re-sign-multipart-upload-parts.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/complete-multipart-upload.md",
+    "status": "ok",
+    "bytes": 10990,
+    "sha256": "d467b854bc90fbe456b5ab7fa6a46a4bbf7aa9cdabb12ce2015d9a718a0a19cd",
+    "headings": [
+      "# Complete multipart upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\complete-multipart-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/upload/abort-multipart-upload.md",
+    "status": "ok",
+    "bytes": 7266,
+    "sha256": "f4bbef20a00cd18850d64e709166669273f10e77589237023da7cc1d66572518",
+    "headings": [
+      "# Abort multipart upload"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\upload\\abort-multipart-upload.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/get-posts-that-can-be-reconnected-to-a-social-account.md",
+    "status": "ok",
+    "bytes": 9224,
+    "sha256": "bb1b753d4824f1f666c752177ab511a3cb225d30839eb29636a7f5cb609857bf",
+    "headings": [
+      "# Get posts that can be reconnected to a social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\get-posts-that-can-be-reconnected-to-a-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/reconnect-social-account-to-matching-posts.md",
+    "status": "ok",
+    "bytes": 9434,
+    "sha256": "7e0aa22f2247e8e73d590cdc37802ef61a804247dbcfe38129f214a517ff3122",
+    "headings": [
+      "# Reconnect social account to matching posts"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\reconnect-social-account-to-matching-posts.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/get-post-by-reference-key.md",
+    "status": "ok",
+    "bytes": 98573,
+    "sha256": "8ea3250b93ef9fab630a74a4fd6a5bb1d0b24ce07468549739abeb80894fe853",
+    "headings": [
+      "# Get post by reference key"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\get-post-by-reference-key.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/get-post.md",
+    "status": "ok",
+    "bytes": 98209,
+    "sha256": "9a5e541eda3c0d3891c8bb2837cb6e192b20a6ef05a7cd4abbc6062a3fbc9d6a",
+    "headings": [
+      "# Get post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\get-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/delete-post.md",
+    "status": "ok",
+    "bytes": 83770,
+    "sha256": "c6805e1540fb5e04f9a361b51fff8f3055294bcdccfb6b9f097816e1247fabcd",
+    "headings": [
+      "# Delete post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\delete-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/update-post.md",
+    "status": "ok",
+    "bytes": 131849,
+    "sha256": "3c1c20b439534798edb46213188023d2f2b6338a11f2df776c7216db8d137b1c",
+    "headings": [
+      "# Update post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\update-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/get-post-list.md",
+    "status": "ok",
+    "bytes": 114256,
+    "sha256": "062a3a0f5dcf26b616a4127d830efa8f93daa944945429ee93262fef015c3d64",
+    "headings": [
+      "# Get post list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\get-post-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/create-post.md",
+    "status": "ok",
+    "bytes": 132136,
+    "sha256": "566e7a7ca14630060f9e14542a41e1cd0b4eacf771b1dd8721ea1c686f5c4384",
+    "headings": [
+      "# Create post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\create-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/post/retry-post.md",
+    "status": "ok",
+    "bytes": 83731,
+    "sha256": "2c137075517a0927429d370e752e6383b6eb678a4080e74fef25fab95ee60ef9",
+    "headings": [
+      "# Retry post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\post\\retry-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/credit/get-credit-balance.md",
+    "status": "ok",
+    "bytes": 7849,
+    "sha256": "fdd4f453b5fcb897be1f451fe9143421d7dce1ef8a1804468a164193c0b522e8",
+    "headings": [
+      "# Get credit balance"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\credit\\get-credit-balance.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/credit/quote-a-metered-x-action.md",
+    "status": "ok",
+    "bytes": 9966,
+    "sha256": "f8c607959e70efbf70577691bffaf70debf63d24caa880750281a2fe7af472ea",
+    "headings": [
+      "# Quote a metered X action"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\credit\\quote-a-metered-x-action.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/get-social-account-analytics.md",
+    "status": "ok",
+    "bytes": 16249,
+    "sha256": "649e95fe3d5a854953b4e01017d3c742cf91710f8ebcc1beadf6fb22fe4cf5e8",
+    "headings": [
+      "# Get Social Account Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\get-social-account-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/get-post-analytics.md",
+    "status": "ok",
+    "bytes": 97106,
+    "sha256": "555e125a55c4d76754200ac5c038bf62fa5597fb9c1cda2933a23924bd525116",
+    "headings": [
+      "# Get Post Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\get-post-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/get-social-account-analytics-raw.md",
+    "status": "ok",
+    "bytes": 15444,
+    "sha256": "3474a8aadfed594ad487de4d64638f126dfd55069bbd8b3112f3e0bec0b2a01e",
+    "headings": [
+      "# Get Social Account Analytics Raw"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\get-social-account-analytics-raw.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/get-post-analytics-raw.md",
+    "status": "ok",
+    "bytes": 96319,
+    "sha256": "28dd211dcc3e5f9515fd08a281eb7b319bca9ecfd7dbed26ae12a3903ebd0496",
+    "headings": [
+      "# Get Post Analytics Raw"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\get-post-analytics-raw.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/get-bulk-post-analytics.md",
+    "status": "ok",
+    "bytes": 11091,
+    "sha256": "a056a91818231cc1b81c6aafe0b258613b239ac0b96d31b342cf22c3133bb76b",
+    "headings": [
+      "# Get Bulk Post Analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\get-bulk-post-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/force-refresh-social-account-analytics.md",
+    "status": "ok",
+    "bytes": 9192,
+    "sha256": "fe9ddbe3ac67c416e5091c791732b599b52e66045c6d6355c867d4e50f48b88b",
+    "headings": [
+      "# Force refresh social account analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\force-refresh-social-account-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/analytics/force-refresh-post-analytics.md",
+    "status": "ok",
+    "bytes": 9233,
+    "sha256": "3fea6967ab1eacc6d823fefacd10c337cfede5d4b160519a2933eef574f8b7a5",
+    "headings": [
+      "# Force refresh post analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\analytics\\force-refresh-post-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/get-comment-import-list.md",
+    "status": "ok",
+    "bytes": 10388,
+    "sha256": "4d44415e84c9182fce653a3509141d5f925f015e91cbdd6c8ea245d8629c3784",
+    "headings": [
+      "# Get comment import list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\get-comment-import-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/start-a-new-comment-import-for-a-post.md",
+    "status": "ok",
+    "bytes": 10272,
+    "sha256": "8a74f3279c233d4e9631680c87779a3bb42e21489c5af0c4318085411334228d",
+    "headings": [
+      "# Start a new comment import for a post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\start-a-new-comment-import-for-a-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/get-fetched-comments-for-a-post.md",
+    "status": "ok",
+    "bytes": 15287,
+    "sha256": "28c6fed9363fdbcfe1c79893445932a157152f214fef9839a669b2c6a15ad364",
+    "headings": [
+      "# Get fetched comments for a post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\get-fetched-comments-for-a-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/run-an-action-on-a-fetched-comment.md",
+    "status": "ok",
+    "bytes": 14763,
+    "sha256": "189b7af49721121c93c12cbe0cd40107ab341f4c2a6bc5f87b51e46bb6e5e3be",
+    "headings": [
+      "# Run an action on a fetched comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\run-an-action-on-a-fetched-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/get-comment-import-by-id.md",
+    "status": "ok",
+    "bytes": 8941,
+    "sha256": "d205759a5b66af7955e1ad9e07fb0a8e1e2a29cbcc3b3576632623f8d631626c",
+    "headings": [
+      "# Get comment import by ID"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\get-comment-import-by-id.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/get-comment.md",
+    "status": "ok",
+    "bytes": 32122,
+    "sha256": "95b12ebffcbdc9fcf42d5b99b7acc93b7f7dfa5dfd31a0d3593b3e4e21acb71f",
+    "headings": [
+      "# Get comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\get-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/delete-comment.md",
+    "status": "ok",
+    "bytes": 32125,
+    "sha256": "2aa36b962be8785e2d9241f5e4d3521e4c0229e64749f63e2910f930d2ce8d17",
+    "headings": [
+      "# Delete comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\delete-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/update-comment.md",
+    "status": "ok",
+    "bytes": 36546,
+    "sha256": "4bff71e6d84bb8c306058aba5570d6b2fc0b52c1e03bdb14ea8e5f4f7c24af05",
+    "headings": [
+      "# Update comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\update-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/get-comment-list.md",
+    "status": "ok",
+    "bytes": 38111,
+    "sha256": "adece3d3e3186387b426a4bfadeee6d2e12d7e45c8b71043b2ef8e9db7ee16ac",
+    "headings": [
+      "# Get comment list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\get-comment-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/create-comment.md",
+    "status": "ok",
+    "bytes": 36735,
+    "sha256": "086a79b4193f94df568a0d60d69be41f7ea2bd9f4e38be3fca4d2e768b5ce70e",
+    "headings": [
+      "# Create comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\create-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/comment/retry-comment.md",
+    "status": "ok",
+    "bytes": 32112,
+    "sha256": "e534c42f056dbbc175ed3d541811a3eaaf9b2b2d6df7a430222186ff3e7aafa1",
+    "headings": [
+      "# Retry comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\comment\\retry-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/get-conversations.md",
+    "status": "ok",
+    "bytes": 20744,
+    "sha256": "884d3aafa832f6e5179d95f718eb0e8828b342e0ef4b54260db92a3fde9da0f2",
+    "headings": [
+      "# Get conversations"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\get-conversations.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/get-conversation.md",
+    "status": "ok",
+    "bytes": 17420,
+    "sha256": "b9754f99604c046c8334dd1f2d839117736cffe59eef33f7bc954030be9c9c7b",
+    "headings": [
+      "# Get conversation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\get-conversation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/update-conversation.md",
+    "status": "ok",
+    "bytes": 17840,
+    "sha256": "ff81098ee7164b291fe40ea8968162fc90970e4bff97eb1f90ab64e72746add8",
+    "headings": [
+      "# Update conversation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\update-conversation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/get-conversation-messages.md",
+    "status": "ok",
+    "bytes": 27419,
+    "sha256": "9c9105ca1a7299ef9c7e39d37dd3fd6de3ebbfb4dfae80c185cf69d60f58bd6a",
+    "headings": [
+      "# Get conversation messages"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\get-conversation-messages.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/send-a-conversation-message.md",
+    "status": "ok",
+    "bytes": 48429,
+    "sha256": "76b30fd5c08e4b8d5e4e08e4192526d103425d09a628cce4a72aebe727a51ae7",
+    "headings": [
+      "# Send a conversation message"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\send-a-conversation-message.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/react-or-unreact-to-a-conversation-message.md",
+    "status": "ok",
+    "bytes": 38624,
+    "sha256": "7bc0a7bd08aa20dde814725e250d699d626520c3bc17860aa493495eda21d18d",
+    "headings": [
+      "# React or unreact to a conversation message"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\react-or-unreact-to-a-conversation-message.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/mark-conversation-as-read.md",
+    "status": "ok",
+    "bytes": 17662,
+    "sha256": "a577113e5dd720cf0189c126601e3f6e981ec8e5e54721fc65f88a375fc88fa4",
+    "headings": [
+      "# Mark conversation as read"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\mark-conversation-as-read.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/send-a-private-reply-to-a-fetched-meta-comment.md",
+    "status": "ok",
+    "bytes": 44948,
+    "sha256": "0d7dbc089d42f38c54dbd68ddf80d8ce6a468868a789503a8b3f4f0eb964924f",
+    "headings": [
+      "# Send a private reply to a fetched Meta comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\send-a-private-reply-to-a-fetched-meta-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/archive-conversation.md",
+    "status": "ok",
+    "bytes": 17388,
+    "sha256": "9104190c53d48d32d72173c13268fd139ec666c173bc89852a85f0cc2a5a8ae3",
+    "headings": [
+      "# Archive conversation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\archive-conversation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/conversation/open-conversation.md",
+    "status": "ok",
+    "bytes": 17314,
+    "sha256": "6bc2e0baab4c9a66459118eb0490fb2c91fc0b24a41f9fe42543ef5541e605de",
+    "headings": [
+      "# Open conversation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\conversation\\open-conversation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/get-automation-flows.md",
+    "status": "ok",
+    "bytes": 96511,
+    "sha256": "5200f7f3529f4b5bc12a00866bea35a7d36caa9550371d63058689203b428ad1",
+    "headings": [
+      "# Get automation flows"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\get-automation-flows.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/create-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 121506,
+    "sha256": "19dcea9a596c65ac174664cdf087c8fc0be974f040eb04ff760afd8bf8f09744",
+    "headings": [
+      "# Create an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\create-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/copy-automation-flows-between-teams.md",
+    "status": "ok",
+    "bytes": 96026,
+    "sha256": "eb4c58d74314ca724228a8876e9b8566132298b82f0e60237ead276ec70ad347",
+    "headings": [
+      "# Copy automation flows between teams"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\copy-automation-flows-between-teams.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/get-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 86648,
+    "sha256": "9f924bfc08e62c2a5b525d6cfc041736341c6148142017f54eae6261b392aa08",
+    "headings": [
+      "# Get an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\get-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/delete-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 86645,
+    "sha256": "25b5d121bb8beb4fc2e0f5d5120ca1507695cb9088a8aa01cb327b3ad23ddeb6",
+    "headings": [
+      "# Delete an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\delete-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/update-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 121462,
+    "sha256": "ffff42002ca748a5515b7ebd412d4e89b71a40b3d2586ba069dc42838da26af3",
+    "headings": [
+      "# Update an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\update-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/publish-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 121157,
+    "sha256": "78199e230652d60df1fb2f28a3090f1419007ac6ab3ad6a4a21f6ccfbc68dce4",
+    "headings": [
+      "# Publish an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\publish-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/pause-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 86656,
+    "sha256": "ef2a0ba5ed1324ca204648742be4289851685fb588d6b3fbe583540a34c3356e",
+    "headings": [
+      "# Pause an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\pause-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/activate-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 86602,
+    "sha256": "337616a28090dae88ac417f1f441eabdbde3b887c6cc058c88a91824c8e63746",
+    "headings": [
+      "# Activate an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\activate-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/archive-an-automation-flow.md",
+    "status": "ok",
+    "bytes": 86696,
+    "sha256": "5186419da81bcaa142b692c1978c9b4c544bdc883498c98ae04d2b618c67ba1d",
+    "headings": [
+      "# Archive an automation flow"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\archive-an-automation-flow.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/get-automation-flow-executions.md",
+    "status": "ok",
+    "bytes": 197012,
+    "sha256": "1a8df302ea3deea4bbbcacfa20151563a9ceed3f04dd982ab12b8536e0c8be41",
+    "headings": [
+      "# Get automation flow executions"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\get-automation-flow-executions.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/get-an-automation-execution.md",
+    "status": "ok",
+    "bytes": 185739,
+    "sha256": "8c29c3263909cc4aa446468d5a2ca22cda685f618842bd0967ff5c00841663bd",
+    "headings": [
+      "# Get an automation execution"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\get-an-automation-execution.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/run-an-automation-flow-test.md",
+    "status": "ok",
+    "bytes": 188146,
+    "sha256": "6396d2c04033baa59b0a60d30867cb99a28000df39164a54dc89f2a61bb1c722",
+    "headings": [
+      "# Run an automation flow test"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\run-an-automation-flow-test.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/get-automation-provider-settings.md",
+    "status": "ok",
+    "bytes": 22585,
+    "sha256": "08ccc113a8f351d78a15182ec4e70242a029e85d88acd2c6a214abbc6c166502",
+    "headings": [
+      "# Get automation provider settings"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\get-automation-provider-settings.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/create-or-update-automation-provider-settings.md",
+    "status": "ok",
+    "bytes": 23424,
+    "sha256": "9f2d9e9d5f175b4b1d8edb93508ab1416bcdd04dff9003f3c0228e7f2556a3e9",
+    "headings": [
+      "# Create or update automation provider settings"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\create-or-update-automation-provider-settings.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/sync-automation-provider-settings.md",
+    "status": "ok",
+    "bytes": 19202,
+    "sha256": "73f9472f158998eab981adcb7841552da126ef8dbc3fc418f6d864e16412ab42",
+    "headings": [
+      "# Sync automation provider settings"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\sync-automation-provider-settings.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/automation/send-a-rich-automation-message-to-a-conversation.md",
+    "status": "ok",
+    "bytes": 17738,
+    "sha256": "81ff0c0d0df946471e99e5d4e7dd768bec6bf01a6ac7fd7585f52778d0789775",
+    "headings": [
+      "# Send a rich automation message to a conversation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\automation\\send-a-rich-automation-message-to-a-conversation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/set-or-change-thumbnail-for-a-youtube-video.md",
+    "status": "ok",
+    "bytes": 9611,
+    "sha256": "4d7f1e731b19afdeb4f2b0428034c63dfcf17b172f4fe45ba9b3472268a7315a",
+    "headings": [
+      "# Set or change thumbnail for a YouTube video"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\set-or-change-thumbnail-for-a-youtube-video.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-channel-playlists.md",
+    "status": "ok",
+    "bytes": 11399,
+    "sha256": "31586e0fec5c7ded41528236fbc53998b14e9972cd0cc2dfb4da6f6b027014a8",
+    "headings": [
+      "# Get channel playlists"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-channel-playlists.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-an-existing-playlist.md",
+    "status": "ok",
+    "bytes": 11137,
+    "sha256": "008b42824fbf728ea80ce6d66471af0dbfc3274ff8060fdafaff52af219a042b",
+    "headings": [
+      "# Update an existing playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-an-existing-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/create-a-new-playlist.md",
+    "status": "ok",
+    "bytes": 11040,
+    "sha256": "f3be2aa226e44d62c626d6d8fc3ed0f20b5d61850871c249e0c424705a5e5178",
+    "headings": [
+      "# Create a new playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\create-a-new-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-channel-playlist.md",
+    "status": "ok",
+    "bytes": 6828,
+    "sha256": "921e148708ec7d030b35c5f07f6d5d0361e4ad1492a98867fb928cdfdbd6fed3",
+    "headings": [
+      "# Delete a channel playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-channel-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-videos-from-a-playlist.md",
+    "status": "ok",
+    "bytes": 11802,
+    "sha256": "a834d56a298ae7bf18640356cced7259f6fd895422c611079706ffe6dde35921",
+    "headings": [
+      "# Get videos from a playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-videos-from-a-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/add-a-video-to-a-playlist.md",
+    "status": "ok",
+    "bytes": 10581,
+    "sha256": "52bb771ee09db30709762e729f1b151402157a2ec0fd13e48b741388f30089a2",
+    "headings": [
+      "# Add a video to a playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\add-a-video-to-a-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/remove-a-video-from-a-playlist.md",
+    "status": "ok",
+    "bytes": 6975,
+    "sha256": "ead2ff08ac6568a9f5e19d3baca186ce8336a5e254816cbd3db5d130a242a6d0",
+    "headings": [
+      "# Remove a video from a playlist"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\remove-a-video-from-a-playlist.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-youtube-video.md",
+    "status": "ok",
+    "bytes": 6981,
+    "sha256": "edb34dad23ec694ea22f093462e5ff8ffbbaa5d610f75e77a2b4eee360754d48",
+    "headings": [
+      "# Delete a YouTube video"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-youtube-video.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-youtube-video-metadata.md",
+    "status": "ok",
+    "bytes": 8419,
+    "sha256": "b13c14d7519127b8abfbefabb5ad97d0f501d78f2e379542c888529f0b2defd5",
+    "headings": [
+      "# Edit YouTube video metadata"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-youtube-video-metadata.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-youtube-comment.md",
+    "status": "ok",
+    "bytes": 7004,
+    "sha256": "55eab266965184e03d91fcfcfbcfbada5ae6e2bfbaca13d2f527c336a222bdfa",
+    "headings": [
+      "# Delete a YouTube comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-youtube-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-youtube-comment.md",
+    "status": "ok",
+    "bytes": 7268,
+    "sha256": "2ba28248f3337ff425c6b9d06d55167bee1f2dc844d9d828f18d6a9d55691835",
+    "headings": [
+      "# Edit YouTube comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-youtube-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-youtube-video-categories.md",
+    "status": "ok",
+    "bytes": 7803,
+    "sha256": "9f3ab82fba2898fd4234f2d2514f86b217dc64923dab1e054314656bc39607fe",
+    "headings": [
+      "# Get YouTube video categories"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-youtube-video-categories.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-youtube-regions.md",
+    "status": "ok",
+    "bytes": 7369,
+    "sha256": "f63f6663f647c2a10021c3f0cea67911a5ea0d0476fa9cad88b1a9ecb33fcf18",
+    "headings": [
+      "# Get YouTube regions"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-youtube-regions.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-linkedin-mentionable-tags-people-&-organizations.md",
+    "status": "ok",
+    "bytes": 10475,
+    "sha256": "2cebc13ce2348834e6aa6b2f71bda9638f55b24b8a946dec05db26cd1fb0f5a4",
+    "headings": [
+      "# Get Linkedin mentionable tags (people & organizations)"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-linkedin-mentionable-tags-people-&-organizations.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/build-linkedin-text-insert-mentions-at-tag-placeholders.md",
+    "status": "ok",
+    "bytes": 7438,
+    "sha256": "0cfd4330776b2b23c160259d58dbc801ae694ed36c35bc7d211329bd4620c5bd",
+    "headings": [
+      "# Build Linkedin text, insert mentions at tag placeholders."
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\build-linkedin-text-insert-mentions-at-tag-placeholders.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/reshare-an-existing-linkedin-post.md",
+    "status": "ok",
+    "bytes": 8317,
+    "sha256": "83543d311185edddcb909a4f0497586657aba84a2f83dee22af5780ea9e1bb6b",
+    "headings": [
+      "# Reshare an existing LinkedIn post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\reshare-an-existing-linkedin-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-linkedin-post.md",
+    "status": "ok",
+    "bytes": 6981,
+    "sha256": "ba6fc5554da1236650b70f92390a953c35a389cb7936a6ee77265a779cdfa944",
+    "headings": [
+      "# Delete a LinkedIn post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-linkedin-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-linkedin-post.md",
+    "status": "ok",
+    "bytes": 7239,
+    "sha256": "721353af3b555612321b9dadbebd986c03159ae63f445bf662a5438ddc9adce5",
+    "headings": [
+      "# Edit an existing LinkedIn post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-linkedin-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-linkedin-comment.md",
+    "status": "ok",
+    "bytes": 7011,
+    "sha256": "b1e4fc4a0c104f3434f7cabcbdd851b069cc83970be64f4fc85fa2aa9308538c",
+    "headings": [
+      "# Delete a LinkedIn comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-linkedin-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-linkedin-comment.md",
+    "status": "ok",
+    "bytes": 7333,
+    "sha256": "911e520971c021352b65c0254f9e45682312b69c08b31efbe6cc0440253c1d10",
+    "headings": [
+      "# Edit an existing LinkedIn comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-linkedin-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-google-business-media-items.md",
+    "status": "ok",
+    "bytes": 9053,
+    "sha256": "ef8ea9da5bbd4fc0f151d0e0bd5881be0a62ef14351dab5aa18c5ac457860dad",
+    "headings": [
+      "# List Google Business media items"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-google-business-media-items.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/add-a-media-item-photovideo-using-uploadid-and-category.md",
+    "status": "ok",
+    "bytes": 9328,
+    "sha256": "ee7aaab4b7be83e2a96bdbdb2bba0f59dcb13b439c60cf3003af4a06a1ead0cc",
+    "headings": [
+      "# Add a media item (photo/video) using uploadId and category"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\add-a-media-item-photovideo-using-uploadid-and-category.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-google-business-media-item.md",
+    "status": "ok",
+    "bytes": 7034,
+    "sha256": "87820cf1037fd00d95fa07dd9d1162106d276a10bdb269ef4fb95a48f449a456",
+    "headings": [
+      "# Delete Google Business media item"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-google-business-media-item.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-google-business-post.md",
+    "status": "ok",
+    "bytes": 7072,
+    "sha256": "470da28e21a171ad2aae70fdf7a4132f9e805f72399c9aeabf0488533fc71fa1",
+    "headings": [
+      "# Delete a Google Business post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-google-business-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-google-business-location-profile.md",
+    "status": "ok",
+    "bytes": 7739,
+    "sha256": "94b92f079bab166a4dc52403c07fbbe367c23a785a2a2d74425a6e39fc18529d",
+    "headings": [
+      "# Get Google Business location profile"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-google-business-location-profile.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-location-profile-fields.md",
+    "status": "ok",
+    "bytes": 20793,
+    "sha256": "6fb2e6eb22f4916467764c9fc3fbb59aeb2a05787e4f67b74ced920695d2b463",
+    "headings": [
+      "# Update Google Business location profile fields"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-location-profile-fields.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-regularspecialmore-hours.md",
+    "status": "ok",
+    "bytes": 18291,
+    "sha256": "7895b16d8ee22a9fba5baf52b6aa92fd3571c3e476b0f321d95c5dd9cd942fbe",
+    "headings": [
+      "# Update Google Business regular/special/more hours"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-regularspecialmore-hours.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-google-business-location-attributes.md",
+    "status": "ok",
+    "bytes": 8187,
+    "sha256": "2da967df57d3a35b9f849dca843b1e727875c3564a5dbbbb04df03cc8adf4259",
+    "headings": [
+      "# Get Google Business location attributes"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-google-business-location-attributes.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-location-attributes.md",
+    "status": "ok",
+    "bytes": 9729,
+    "sha256": "fac232652259c6a3b05475fff2cc8dad4ffbda4f9fe73e3f3de5488fe984f6cb",
+    "headings": [
+      "# Update Google Business location attributes"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-location-attributes.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-available-google-business-attributes.md",
+    "status": "ok",
+    "bytes": 9525,
+    "sha256": "8ff7dabc1cd496a0b7ffdf716722b57cf18f2cd8e8eb49beb95a8f9f1686e77b",
+    "headings": [
+      "# List available Google Business attributes"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-available-google-business-attributes.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-the-search-terms-customers-used-to-find-the-location.md",
+    "status": "ok",
+    "bytes": 10665,
+    "sha256": "ab1cf8ce07c8d6a21427c2ecf9f2c0252f22dab2677ece39c56587a0f861fab0",
+    "headings": [
+      "# List the search terms customers used to find the location"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-the-search-terms-customers-used-to-find-the-location.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-available-google-business-categories.md",
+    "status": "ok",
+    "bytes": 8357,
+    "sha256": "c4079338fdb83fcb0dc4e2a28e74ff2ccc167ab39e52906b864d9e0f61e314b4",
+    "headings": [
+      "# List available Google Business categories"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-available-google-business-categories.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-google-business-service-list.md",
+    "status": "ok",
+    "bytes": 7072,
+    "sha256": "d33a4e95b1e77b69c98fa5d14928057855aa7d5fea32c52e6af834209736e9b6",
+    "headings": [
+      "# Get Google Business service list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-google-business-service-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-service-list.md",
+    "status": "ok",
+    "bytes": 7642,
+    "sha256": "1b2565d726fe26f1fcb4fa0729bf4a76240919950374c34b744b769f82f4679d",
+    "headings": [
+      "# Update Google Business service list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-service-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-google-business-food-menus.md",
+    "status": "ok",
+    "bytes": 7410,
+    "sha256": "f1db24a2516c279cb7786a3d459f186c19940aa5ffab630fe8dc0af7c5064a27",
+    "headings": [
+      "# Get Google Business food menus"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-google-business-food-menus.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-food-menus.md",
+    "status": "ok",
+    "bytes": 7597,
+    "sha256": "cfb5f70db78be6674d1ebdecf9401666d3f8c74bdec74f0916df47bcb5cd1540",
+    "headings": [
+      "# Update Google Business food menus"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-food-menus.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-google-business-place-action-links.md",
+    "status": "ok",
+    "bytes": 8055,
+    "sha256": "bfe4b6d6c1321a7faf17f569b36b76f3d58b9d0370b4ceba6372c0f923b9a3ee",
+    "headings": [
+      "# List Google Business place action links"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-google-business-place-action-links.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/create-google-business-place-action-link.md",
+    "status": "ok",
+    "bytes": 8483,
+    "sha256": "01d325c19842ef364662ae46c0f5b24d6da9eb1a0f57554b39541c5f4be9df90",
+    "headings": [
+      "# Create Google Business place action link"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\create-google-business-place-action-link.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-google-business-place-action-link.md",
+    "status": "ok",
+    "bytes": 7193,
+    "sha256": "56f9ae4588f88bbbe45cfcb07db0eab567244b72a4965d9abe83b5e8fe4d5bda",
+    "headings": [
+      "# Delete Google Business place action link"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-google-business-place-action-link.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/update-google-business-place-action-link.md",
+    "status": "ok",
+    "bytes": 8717,
+    "sha256": "05a2e99ee11fe2f1950119315f50d587d538b855910c9442912ecf9129beef5a",
+    "headings": [
+      "# Update Google Business place action link"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\update-google-business-place-action-link.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-review-import-status-list.md",
+    "status": "ok",
+    "bytes": 9073,
+    "sha256": "1909b1f234546d2bb56c1d73ae90ccbe09d50baf426b4bd57bbb33572adf02ad",
+    "headings": [
+      "# Get review import status list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-review-import-status-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/start-a-new-google-reviews-import.md",
+    "status": "ok",
+    "bytes": 9267,
+    "sha256": "32827c7754d4ca4acd7c5866139d5330291b651a42903b520cd1070837886d04",
+    "headings": [
+      "# Start a new Google Reviews import"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\start-a-new-google-reviews-import.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-review-import-by-id.md",
+    "status": "ok",
+    "bytes": 8471,
+    "sha256": "49ca109b22de0953984c451934d35dd2fb89991e37fe5eea67ead5f4de7dbb73",
+    "headings": [
+      "# Get review import by ID"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-review-import-by-id.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-imported-google-reviews.md",
+    "status": "ok",
+    "bytes": 10708,
+    "sha256": "11ae794837235cf4e3bb66171d83cc81d9a26ba8310713d8e389bcf6ce07dacc",
+    "headings": [
+      "# List imported Google Reviews"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-imported-google-reviews.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-a-single-imported-google-review.md",
+    "status": "ok",
+    "bytes": 9484,
+    "sha256": "c0c45a028759e566f977588dec7ff27a80c8f14187270d60ffa1843c2c8aec97",
+    "headings": [
+      "# Get a single imported Google Review"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-a-single-imported-google-review.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/reply-to-a-google-review-creates-or-updates-the-owner-reply.md",
+    "status": "ok",
+    "bytes": 9929,
+    "sha256": "b10260c2973f24ce478343066eb140984c963616616c82b17afce7f8d749c9d9",
+    "headings": [
+      "# Reply to a Google Review (creates or updates the owner reply)"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\reply-to-a-google-review-creates-or-updates-the-owner-reply.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-the-owner-reply-from-a-google-review.md",
+    "status": "ok",
+    "bytes": 9642,
+    "sha256": "b859fc168489ad860c949e03bfb4ebf1bd5c55ebdfb5a97abf1d9e895636cc0e",
+    "headings": [
+      "# Delete the owner reply from a Google Review"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-the-owner-reply-from-a-google-review.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-subreddit-post-requirements-flair-requiredenabled.md",
+    "status": "ok",
+    "bytes": 7232,
+    "sha256": "1398a50d7cca74839658cb1c3b23cb8c11993ba4059845aabc741e5edf6a5fc5",
+    "headings": [
+      "# Get subreddit post requirements (flair required/enabled)"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-subreddit-post-requirements-flair-requiredenabled.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-subreddit-flairs-list.md",
+    "status": "ok",
+    "bytes": 7419,
+    "sha256": "29961bcef85300321b2bffb6fcb56b0f41c30364ff0612d7a9096feae09408b6",
+    "headings": [
+      "# Get subreddit flairs list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-subreddit-flairs-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-reddit-post.md",
+    "status": "ok",
+    "bytes": 6967,
+    "sha256": "6d4e4e5b25af757edd0af64dce8b5282702e055dced4df1d7e93fa1e8156b7d0",
+    "headings": [
+      "# Delete a Reddit post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-reddit-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-reddit-post.md",
+    "status": "ok",
+    "bytes": 7460,
+    "sha256": "d851b813e2e492913ff99a898f36cd7c4dc9f2d4db0b7c18eb9247c53b8d15fb",
+    "headings": [
+      "# Edit an existing Reddit post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-reddit-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-reddit-comment.md",
+    "status": "ok",
+    "bytes": 6997,
+    "sha256": "6537213dabb24305f504ce3987aff4d51304c43f9a946adc534fa9eae7b14b04",
+    "headings": [
+      "# Delete a Reddit comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-reddit-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-reddit-comment.md",
+    "status": "ok",
+    "bytes": 7320,
+    "sha256": "d2309b81553096c80672c28f81437758b692d651e110f791258a484546a952d1",
+    "headings": [
+      "# Edit an existing Reddit comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-reddit-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/search-for-instagram-businesscreator-user-by-username.md",
+    "status": "ok",
+    "bytes": 10540,
+    "sha256": "c08c825b49bd750c158389975aadf77d5c1cc838d555435a1e81248b6751152d",
+    "headings": [
+      "# Search for Instagram Business/Creator user by username"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\search-for-instagram-businesscreator-user-by-username.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/search-instagram-location-ids.md",
+    "status": "ok",
+    "bytes": 9020,
+    "sha256": "a5a7562a8605464d6e14b0cd4a8f05a551413b615fb0d90311b2495011defa6d",
+    "headings": [
+      "# Search Instagram location IDs"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\search-instagram-location-ids.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/search-instagram-audio-assets.md",
+    "status": "ok",
+    "bytes": 8755,
+    "sha256": "51420b981d7eb9f59f1ec83aa48846105ba5b59c0885eb235a85aa89f689b758",
+    "headings": [
+      "# Search Instagram audio assets"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\search-instagram-audio-assets.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-an-instagram-comment.md",
+    "status": "ok",
+    "bytes": 7020,
+    "sha256": "ede028c28d569dbc170d7908c48b492a5593e4780c78840dfd39ec816ff40564",
+    "headings": [
+      "# Delete an Instagram comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-an-instagram-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/search-facebook-pages.md",
+    "status": "ok",
+    "bytes": 9011,
+    "sha256": "8126025b149c1d05cce0f0912041bb732cf0e58d0b48527de2c7dc2c097ca42d",
+    "headings": [
+      "# Search Facebook Pages"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\search-facebook-pages.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-facebook-text-background-presets.md",
+    "status": "ok",
+    "bytes": 8629,
+    "sha256": "054738ecc3b781d9fab5a22cf075512c25f05f393c45835d6019c185a607a443",
+    "headings": [
+      "# List Facebook text background presets"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-facebook-text-background-presets.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-facebook-token-debug-details.md",
+    "status": "ok",
+    "bytes": 8287,
+    "sha256": "0f953cf919a573cb4bb5f9998a2dad1ebc8c322289d2879e201a728ca9a49778",
+    "headings": [
+      "# Get Facebook token debug details"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-facebook-token-debug-details.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-facebook-recommendations-import-status-list.md",
+    "status": "ok",
+    "bytes": 9136,
+    "sha256": "b1b4b1a84f65ee954fecd384d1a5fee83e73be19973c80cde3bfb6f5dc9e4dd3",
+    "headings": [
+      "# Get Facebook recommendations import status list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-facebook-recommendations-import-status-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/start-a-new-facebook-recommendations-import.md",
+    "status": "ok",
+    "bytes": 9337,
+    "sha256": "8caba71b27b4998a47b272e41f4ff0316dd105b5fb5eb6e593062d30ba84bfbc",
+    "headings": [
+      "# Start a new Facebook recommendations import"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\start-a-new-facebook-recommendations-import.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-facebook-recommendations-import-by-id.md",
+    "status": "ok",
+    "bytes": 8534,
+    "sha256": "da2769f308ee190f7cab2727d385996ff047dbbd3d9d93cbd3798c2e444fabc4",
+    "headings": [
+      "# Get Facebook recommendations import by ID"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-facebook-recommendations-import-by-id.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/list-imported-facebook-recommendations.md",
+    "status": "ok",
+    "bytes": 10804,
+    "sha256": "e18e03ae76c3bd39e75263939ae3362b5e0f310aa3154344a174b922864efd8d",
+    "headings": [
+      "# List imported Facebook recommendations"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\list-imported-facebook-recommendations.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-a-single-imported-facebook-recommendation.md",
+    "status": "ok",
+    "bytes": 9562,
+    "sha256": "2e8c89dbf1a721417ace89ff34a6b1df1b0fbe39a40aacb4639aba86b7f669cf",
+    "headings": [
+      "# Get a single imported Facebook recommendation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-a-single-imported-facebook-recommendation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-recommendation-thread-comments.md",
+    "status": "ok",
+    "bytes": 8691,
+    "sha256": "282f4657fccf334a529d3ed42c8f17f7b5bd469077e9d8d495da68d437c4665d",
+    "headings": [
+      "# Get recommendation thread comments"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-recommendation-thread-comments.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/reply-to-a-facebook-recommendation.md",
+    "status": "ok",
+    "bytes": 9931,
+    "sha256": "b0fce57f3861f3997cf109a9e3c5053830473051b0daa865ef4ab386d01e430a",
+    "headings": [
+      "# Reply to a Facebook recommendation"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\reply-to-a-facebook-recommendation.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/reply-to-a-facebook-recommendation-thread-comment.md",
+    "status": "ok",
+    "bytes": 7465,
+    "sha256": "0a46ac9a43a3ec971d0bdc7bfff8b57d8bff52719de4e57d01c83dcfb29497c0",
+    "headings": [
+      "# Reply to a Facebook recommendation thread comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\reply-to-a-facebook-recommendation-thread-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-facebook-post.md",
+    "status": "ok",
+    "bytes": 6997,
+    "sha256": "f77922b157f4fb6cd787b80a972dea11b7dd1047038dab93e5e482ce9cfe5eda",
+    "headings": [
+      "# Delete a Facebook post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-facebook-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-facebook-post.md",
+    "status": "ok",
+    "bytes": 7402,
+    "sha256": "f88866c95eefa1a78e521063166e9bcd59724a84335a02080906061db0c8a08e",
+    "headings": [
+      "# Edit an existing Facebook post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-facebook-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-facebook-comment.md",
+    "status": "ok",
+    "bytes": 7011,
+    "sha256": "183e9610f4bf8ce12f3ba7bfc1dcef7d32b7ad43fee2f0cf5b44fde2eebbb471",
+    "headings": [
+      "# Delete a Facebook comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-facebook-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-a-facebook-comment.md",
+    "status": "ok",
+    "bytes": 7313,
+    "sha256": "7c8947076bbeddaee4a5133846401ccdf95e50d44ef72461b2bd4998c0f19312",
+    "headings": [
+      "# Edit a Facebook comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-a-facebook-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-pinterest-pin.md",
+    "status": "ok",
+    "bytes": 6981,
+    "sha256": "0f971e829e3fc3d1e8f73a0c6dff71a5db9cf6c2b2639f31e25830cae7993363",
+    "headings": [
+      "# Delete a Pinterest pin"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-pinterest-pin.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/[disabled]-edit-an-existing-pinterest-pin.md",
+    "status": "ok",
+    "bytes": 7651,
+    "sha256": "7cd9b1ed200b881a7c7da6807b7d0e746496a3fe677245e82f6b74251926db02",
+    "headings": [
+      "# [DISABLED] Edit an existing Pinterest pin"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\[disabled]-edit-an-existing-pinterest-pin.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-mastodon-status.md",
+    "status": "ok",
+    "bytes": 6995,
+    "sha256": "bcfbc0c311ab6a5eebe1b03a615a760e364146aa191583285127bfc127d71000",
+    "headings": [
+      "# Delete a Mastodon status"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-mastodon-status.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-mastodon-status.md",
+    "status": "ok",
+    "bytes": 7425,
+    "sha256": "01b91dd125f4d99791481346f3be5fd0f6e22fb1523170e046cbedbcade097c7",
+    "headings": [
+      "# Edit an existing Mastodon status"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-mastodon-status.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-mastodon-comment.md",
+    "status": "ok",
+    "bytes": 7023,
+    "sha256": "ab62f072ca287ccae545916ba90dfb607f0238817558c1e1baa03c98013b8306",
+    "headings": [
+      "# Delete a Mastodon comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-mastodon-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-a-mastodon-comment.md",
+    "status": "ok",
+    "bytes": 7489,
+    "sha256": "ae1c535de781ceacf53708844cf8d14decbf083014e98dc94db2bec0710e3415",
+    "headings": [
+      "# Edit a Mastodon comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-a-mastodon-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-slack-message.md",
+    "status": "ok",
+    "bytes": 6981,
+    "sha256": "d08c4ea5047a7b9edc13d1a1b53ec232b3798427406f14cdc398a3810002632e",
+    "headings": [
+      "# Delete a Slack message"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-slack-message.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/edit-an-existing-slack-message.md",
+    "status": "ok",
+    "bytes": 7246,
+    "sha256": "ed6994e5ead99b478bb763eca1b7bde776b7c3879ef581e1060506b01a3b4824",
+    "headings": [
+      "# Edit an existing Slack message"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\edit-an-existing-slack-message.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-bluesky-post.md",
+    "status": "ok",
+    "bytes": 6974,
+    "sha256": "37e342cdbe58ec59a2a4a350988a2a30e4ccfb5b973610a0d5d2bb672a0a7c76",
+    "headings": [
+      "# Delete a Bluesky post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-bluesky-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-bluesky-comment.md",
+    "status": "ok",
+    "bytes": 7016,
+    "sha256": "dd0f1855a3e571b1deeb13cd187717e8458f7f01849b2f833d802fce1a4ed112",
+    "headings": [
+      "# Delete a Bluesky comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-bluesky-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-twitterx-tweet.md",
+    "status": "ok",
+    "bytes": 7094,
+    "sha256": "e0d063cac60838cce0905a60c0da2c9905a1f83aba18e961027aab653d89def0",
+    "headings": [
+      "# Delete a Twitter/X tweet"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-twitterx-tweet.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-twitterx-comment.md",
+    "status": "ok",
+    "bytes": 7129,
+    "sha256": "5e2450b543112e149d9c98cd8615e178c3f68e7b7110cff1ced05b810f4abc36",
+    "headings": [
+      "# Delete a Twitter/X comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-twitterx-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/repost-a-twitterx-post.md",
+    "status": "ok",
+    "bytes": 7669,
+    "sha256": "02492ae2f6d2bdfbcbe0ba135b0a5e7421ab6e7fbd8dd695be29082dbcb9c683",
+    "headings": [
+      "# Repost a Twitter/X post"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\repost-a-twitterx-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/undo-a-twitterx-repost.md",
+    "status": "ok",
+    "bytes": 7439,
+    "sha256": "58dfa6e83c763229737c9ee89151ab6bec1747d7e04828a0c7d8bda1a354c4c6",
+    "headings": [
+      "# Undo a Twitter/X repost"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\undo-a-twitterx-repost.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-discord-message.md",
+    "status": "ok",
+    "bytes": 6995,
+    "sha256": "4499c59adaeb462d962875e85883c595f30c68ad6f33d9c7c58e9e94dfc1a7f0",
+    "headings": [
+      "# Delete a Discord message"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-discord-message.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/get-popular-tracks-from-tiktok-commercial-music-library.md",
+    "status": "ok",
+    "bytes": 12373,
+    "sha256": "6d7cb5510f3ee8e73c9ff1024faef47ce7cff0d61495a23261bc315b7249f2b6",
+    "headings": [
+      "# Get popular tracks from TikTok Commercial Music Library"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\get-popular-tracks-from-tiktok-commercial-music-library.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/misc/delete-a-tiktok-comment.md",
+    "status": "ok",
+    "bytes": 6973,
+    "sha256": "cdc4acd8736d9538c34e0d2917479a5b1b58cc41a1730460a6904a65a0eb071b",
+    "headings": [
+      "# Delete a TikTok comment"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\misc\\delete-a-tiktok-comment.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/get-import-status-list.md",
+    "status": "ok",
+    "bytes": 10439,
+    "sha256": "b29aa4f0431f9800b837a33b016c8a9bc2729183d2b6865685a327cf0f538d2c",
+    "headings": [
+      "# Get import status list"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\get-import-status-list.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/start-a-new-post-history-import.md",
+    "status": "ok",
+    "bytes": 11320,
+    "sha256": "20cd09f0e03ca0824c7279602c5b9406b520f603fe3f7c24c02478b331983604",
+    "headings": [
+      "# Start a new post history import"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\start-a-new-post-history-import.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/get-import-by-id.md",
+    "status": "ok",
+    "bytes": 9283,
+    "sha256": "09ea33cae27a1de3e5c250eb9d653077291d5f996765a39de7110ae4d4082062",
+    "headings": [
+      "# Get import by ID"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\get-import-by-id.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/get-imported-posts-with-analytics-for-a-social-account.md",
+    "status": "ok",
+    "bytes": 13334,
+    "sha256": "1e5eb2e3c7b4aab8dd903114cebbc31edf70b0626f05169edc5f03571030c566",
+    "headings": [
+      "# Get imported posts with analytics for a social account"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\get-imported-posts-with-analytics-for-a-social-account.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/bulk-delete-imported-posts-and-their-analytics.md",
+    "status": "ok",
+    "bytes": 7277,
+    "sha256": "8ee18a8a5c14de81d1ea447d905ddad278ba15c42f27426ac65ce4a25892254b",
+    "headings": [
+      "# Bulk delete imported posts and their analytics"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\bulk-delete-imported-posts-and-their-analytics.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postimport/retry-a-failed-import.md",
+    "status": "ok",
+    "bytes": 9662,
+    "sha256": "85643f87c2e1405dab19c26b1e7cebe08ace9f42709c65c8ce30fcb9d5f3affb",
+    "headings": [
+      "# Retry a failed import"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postimport\\retry-a-failed-import.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postcsv/get-post-csv-import-history.md",
+    "status": "ok",
+    "bytes": 9576,
+    "sha256": "8df0a9d30d1c07753e4c2e58bc39f4df36029866dac54323f2d1af2e5d252c2f",
+    "headings": [
+      "# Get post CSV import history"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postcsv\\get-post-csv-import-history.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postcsv/create-post-csv-import.md",
+    "status": "ok",
+    "bytes": 8771,
+    "sha256": "4f203bf5390cfdd90a474421a43e10b4a6d448446f47c6db07198bbe5bde1771",
+    "headings": [
+      "# Create post CSV import"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postcsv\\create-post-csv-import.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postcsv/get-post-csv-import-details.md",
+    "status": "ok",
+    "bytes": 8690,
+    "sha256": "8e6806b0cff5696f02458c532a4dffb055ecd26e2631f771567b49d9530cd4ba",
+    "headings": [
+      "# Get post CSV import details"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postcsv\\get-post-csv-import-details.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postcsv/get-post-csv-import-processing-status.md",
+    "status": "ok",
+    "bytes": 8095,
+    "sha256": "55d816495730d3bf591d591aaaea8201fd63c49f7a370fd6e9c56383a5704f1c",
+    "headings": [
+      "# Get post CSV import processing status"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postcsv\\get-post-csv-import-processing-status.md"
+  },
+  {
+    "url": "https://info.bundle.social/api-reference/client/postcsv/get-post-csv-import-row-results.md",
+    "status": "ok",
+    "bytes": 8888,
+    "sha256": "a3f30ce4ff1fce3ac3cef9e9a59030a0d8d043bdc30197536bfc1b90f953be73",
+    "headings": [
+      "# Get post CSV import row results"
+    ],
+    "path": "api-docs-review\\api-reference\\client\\postcsv\\get-post-csv-import-row-results.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/index.md",
+    "status": "ok",
+    "bytes": 1454,
+    "sha256": "7bffd726c6895a559e5913e286d77b7221d7c5cece28282ccb7fb90904b13013",
+    "headings": [
+      "# Knowledge Base",
+      "## Categories"
+    ],
+    "path": "api-docs-review\\knowledge\\index.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/organization/what-is-an-organization.md",
+    "status": "ok",
+    "bytes": 5780,
+    "sha256": "73ff19d11606ebad14d11ef7ecbfd75bda65c56539df057316781c920392a9a5",
+    "headings": [
+      "# Get to know organizations in bundle.social",
+      "## What is an organization?",
+      "## Create an API key",
+      "## Add a webhook",
+      "## Manage billing",
+      "## Organization settings",
+      "## Summary"
+    ],
+    "path": "api-docs-review\\knowledge\\organization\\what-is-an-organization.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/teams/what-are-teams.md",
+    "status": "ok",
+    "bytes": 6126,
+    "sha256": "19586f0c6bdcd51f32434af025b3848201ee7813e761c7050823579057d9c0b3",
+    "headings": [
+      "# Get to know teams in bundle.social",
+      "## What is a team?",
+      "## Create a team",
+      "### Need another team?",
+      "## Switch teams",
+      "## The team menu",
+      "## Link in bio",
+      "## Google Business",
+      "## Bots",
+      "## Change your team name and picture",
+      "## Summary"
+    ],
+    "path": "api-docs-review\\knowledge\\teams\\what-are-teams.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/posts/create-first-post.md",
+    "status": "ok",
+    "bytes": 12746,
+    "sha256": "d02a82cfecfbb7264e691c16c1968e1474abe034f3fb0dddb0ffc4e70e413a53",
+    "headings": [
+      "# Make your first posts with bundle.social",
+      "## Open the post creator",
+      "## Pick the platforms",
+      "## Pick the content",
+      "## Set the time",
+      "## Customize your content",
+      "### Adjust the content per platform",
+      "## Discord and Slack quirk",
+      "## Publish",
+      "## Access the content",
+      "## Deleting a post"
+    ],
+    "path": "api-docs-review\\knowledge\\posts\\create-first-post.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/posts/media-library.md",
+    "status": "ok",
+    "bytes": 6032,
+    "sha256": "fdbb5377093c4f93c743ef01ef45c5b4460a7a1658ef99024f3d9fadeaf44612",
+    "headings": [
+      "# What is the Media Library?",
+      "## Media Library is a \"storage\"",
+      "## How to use the Media Library",
+      "## How to see content details?",
+      "## How to delete content from the Media Library?",
+      "## Filtering in the Media Library",
+      "## Summary"
+    ],
+    "path": "api-docs-review\\knowledge\\posts\\media-library.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/posts/dc-slack-bots.md",
+    "status": "ok",
+    "bytes": 2831,
+    "sha256": "54e12866f8752e5fcd54b5810a8d533212a0ddc860e49087d80b11b8c3062b02",
+    "headings": [
+      "# Discord and Slack bots on bundle.social",
+      "## Why bots?",
+      "## How to create a bot"
+    ],
+    "path": "api-docs-review\\knowledge\\posts\\dc-slack-bots.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/index.md",
+    "status": "ok",
+    "bytes": 3036,
+    "sha256": "9dd3e694ccf932e870be594847729c8e26590203813f6ce49fb0c08e5ba10274",
+    "headings": [
+      "# Social Accounts",
+      "## Connect your social media accounts"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\index.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/tiktok.md",
+    "status": "ok",
+    "bytes": 5201,
+    "sha256": "8af253877de7e3208f71927b7474bfa1306e23246944fd8779cd565f75ad6b65",
+    "headings": [
+      "# Connect your TikTok account to bundle.social",
+      "## Connect your TikTok account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\tiktok.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/youtube.md",
+    "status": "ok",
+    "bytes": 5771,
+    "sha256": "0d6ce619c901d32a444eda7f257a92c8919c6f63dd531d805101099602e63938",
+    "headings": [
+      "# Connect your Youtube channel to bundle.social",
+      "## Connect your YouTube channel",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\youtube.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/snapchat.md",
+    "status": "ok",
+    "bytes": 1948,
+    "sha256": "9f85f96be83ff3fc129f25f463b5425482d42bcc44b1fe64654bcf6b4b5c3fdc",
+    "headings": [
+      "# Connect your Snapchat account to bundle.social",
+      "## Connect Snapchat",
+      "## What You Can Do",
+      "## Troubleshooting"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\snapchat.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/instagram.md",
+    "status": "ok",
+    "bytes": 6784,
+    "sha256": "13b9b90e1c7d87f0287680e1460f298d393133d13147f8e677ba403f2b0a8b65",
+    "headings": [
+      "# Connect your Instagram account to bundle.social",
+      "## Connect your Instagram account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\instagram.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/facebook.md",
+    "status": "ok",
+    "bytes": 6889,
+    "sha256": "43bcdc7e36541068566c514c960722e870058c356248c62c3d0b543790fd7542",
+    "headings": [
+      "# Connect your Facebook account to bundle.social",
+      "## Connect your Facebook account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\facebook.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/x.md",
+    "status": "ok",
+    "bytes": 4054,
+    "sha256": "69f3245a6084b4a529fc9dfb66bc41ced8f293642b50c23eb2ed1acb4a5de715",
+    "headings": [
+      "# Connect your X (Twitter) account to bundle.social",
+      "## Connect your X (Twitter) account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\x.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/linkedin.md",
+    "status": "ok",
+    "bytes": 4727,
+    "sha256": "9d0d4465cd69b34331c9f63a7af0020969474376edb0d51a8388c2c4f32eb81e",
+    "headings": [
+      "# Connect your Linkedin account to bundle.social",
+      "## Connect your Linkedin account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\linkedin.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/pinterest.md",
+    "status": "ok",
+    "bytes": 4178,
+    "sha256": "285b765b0e07ca1db48eaa666eaf7f5e143987a02bf540b11f92d7ee9a0c0224",
+    "headings": [
+      "# Connect your Pinterest account to bundle.social",
+      "## Connect your Pinterest account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\pinterest.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/reddit.md",
+    "status": "ok",
+    "bytes": 4109,
+    "sha256": "24bd46d3b3c5b631f3ef6a862482caf417294b614450c2feee3ca1beea055352",
+    "headings": [
+      "# Connect your Reddit account to bundle.social",
+      "## Connect your Reddit account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\reddit.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/threads.md",
+    "status": "ok",
+    "bytes": 1704,
+    "sha256": "41922770faf89197df36a2aa291a585963b7f54496258a471f655d588b4cc3ad",
+    "headings": [
+      "# Connect your Threads account to bundle.social",
+      "## Connect your Threads account",
+      "## What you can do after connecting",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\threads.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/mastodon.md",
+    "status": "ok",
+    "bytes": 1896,
+    "sha256": "9988dd5c473f5c6f9240c41be31f3bf76c916bbc798af265e34a2b3a06e69d4e",
+    "headings": [
+      "# Connect your Mastodon account to bundle.social",
+      "## Connect your Mastodon account",
+      "## What you can do after connecting",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\mastodon.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/bluesky.md",
+    "status": "ok",
+    "bytes": 1900,
+    "sha256": "0f2999313deec4818a6ebd2d1bad24d1e5f8f129041efdbdf27eea0909a55611",
+    "headings": [
+      "# Connect your Bluesky account to bundle.social",
+      "## Connect your Bluesky account",
+      "## What you can do after connecting",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\bluesky.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/discord.md",
+    "status": "ok",
+    "bytes": 4966,
+    "sha256": "337b4cd3e0baf00132b1ef0f2d06f47b06e837e9f52df68a73a9e5ca2ef2e587",
+    "headings": [
+      "# Connect your Discord account to bundle.social",
+      "## Connect your Discord account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\discord.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/slack.md",
+    "status": "ok",
+    "bytes": 4146,
+    "sha256": "cca32865f6de8a888e9900951bbfac981915f6aac3d5109b86fc9b730f6552c2",
+    "headings": [
+      "# Connect your Slack account to bundle.social",
+      "## Connect your Slack account",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\slack.md"
+  },
+  {
+    "url": "https://info.bundle.social/knowledge/social-accounts/google-business.md",
+    "status": "ok",
+    "bytes": 2287,
+    "sha256": "47d0f337679e4596475ff4216fb183de8ef63649d922e417ad7473930476b86b",
+    "headings": [
+      "# Connect your Google Business Profile to bundle.social",
+      "## Connect your Google Business Profile",
+      "## What you can do after connecting",
+      "## Errors"
+    ],
+    "path": "api-docs-review\\knowledge\\social-accounts\\google-business.md"
+  }
+]

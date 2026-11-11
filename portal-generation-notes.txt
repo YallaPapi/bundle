@@ -1,0 +1,18 @@
+﻿Portal-link generation: verified 2026-10-19
+POST /api/v1/team/ accepts name (3-80 characters) and returns id.
+GET /api/v1/team/ lists teams with offset/limit and items/total.
+POST /api/v1/social-account/create-portal-link requires teamId and
+socialAccountTypes and returns url. Use INSTAGRAM-only direct OAuth,
+disableAutoLogin=true, expiresIn=2880 (48 hours). The link targets a team;
+the expected username is a roster mapping, not an enforced OAuth identity.
+Application-side task: derive prefix from each input CSV filename and export
+all profiles/team IDs/links into one CSV. Reuse exact existing team names;
+stop on ambiguous duplicate names or failed mutations rather than retrying
+blindly. No publishing or media upload is involved.
+Sources:
+https://info.bundle.social/llms.txt
+https://info.bundle.social/api-reference/client/team/create-new-team
+https://info.bundle.social/api-reference/client/team/get-list-of-teams
+https://info.bundle.social/api-reference/connect-social-accounts/hosted-flow
+https://info.bundle.social/api-reference/rate-limits
+https://api.bundle.social/swagger-json

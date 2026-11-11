@@ -1,0 +1,196 @@
+﻿BUNDLE INSTAGRAM BULK PUBLISHING PLAN
+Verified against Bundle documentation and live OpenAPI schema: 2026-10-16
+
+PURPOSE
+Five VAs, 100 Instagram accounts each, 400 videos per VA daily.
+500 accounts = 500 teams = 500 corresponding connection portal links.
+Daily input: video files and a spreadsheet with Filename | Caption only.
+No content approval. Random, balanced distribution within each VA's teams.
+
+DOCUMENTATION RULE
+Read all documentation relevant to each feature before implementing it,
+including the guide, endpoint schema, limits and errors. Resolve conflicts
+before building dependent behavior. Source index: [1]; live schemas: [2].
+The API supports the operations below. The upload interface, VA permissions,
+spreadsheet matching, random distribution and slot allocation are OUR code,
+not features that Bundle automatically supplies.
+
+1. CREATE TEAMS FROM THE ACCOUNT ROSTER
+Owner supplies an onboarding sheet: VA name | Instagram username.
+Example: Joji | Username1 creates a team named Joji-Username1.
+Use POST /api/v1/team/ with {"name":"Joji-Username1"}.
+The schema requires a name between 3 and 80 characters and returns a team ID.
+Save VA, expected username and team ID locally. One team holds one account
+per platform; paid plans allow unlimited teams. [2,3,4]
+
+Our code trims usernames, rejects repeated accounts and checks saved mappings
+and paginated GET /api/v1/team/ before creating teams on subsequent runs.
+An ambiguous create response must be reconciled before creating again.
+Do not assume team names are unique or that team creation is idempotent.
+
+2. GENERATE ONE PORTAL LINK PER TEAM
+Use POST /api/v1/social-account/create-portal-link with:
+{
+  "teamId": "the-corresponding-team-id",
+  "socialAccountTypes": ["INSTAGRAM"],
+  "instagramConnectionMethod": "INSTAGRAM",
+  "disableAutoLogin": true,
+  "expiresIn": 2880
+}
+Response contains url. The documented lifetime is 5-2880 minutes; maximum
+48 hours. Regenerate expired links against the SAME saved team. [5]
+Direct Instagram OAuth selects the account during login and needs no separate
+channel picker. Facebook Login is another supported method but needs channel
+selection, which the hosted portal handles. Choose direct login for this
+publishing-only workflow; revisit if Facebook-dependent features are added.
+Anti-auto-login options help avoid reusing a browser session but are not a
+promise that the intended account will be chosen. [6]
+
+Export one onboarding sheet per VA with username, team name, team ID, portal
+link and expiry. The VA completes Instagram login for each of their accounts.
+Confirm Business/Creator eligibility before rollout; Bundle documents that
+personal accounts cannot publish through this API. [7]
+
+3. VERIFY THE CONNECTED ACCOUNT
+GET /api/v1/social-account/by-type?teamId=TEAM_ID&type=INSTAGRAM returns the
+connected social account, including id and nullable username. [2,8]
+Our code compares that username with the roster before enabling distribution.
+Missing, mismatched or disconnected accounts are flagged and excluded.
+The documented portal request has no expected-username lock; a team name is
+not proof that the correct Instagram account was connected.
+
+4. VA SUBMISSION
+Proposed application: one small upload page with five separate VA logins.
+Each VA selects all their videos, attaches the two-column spreadsheet and
+submits once. Their login maps to a saved list of team IDs on the backend.
+The browser never receives the organization's API key. Bundle keys have
+organization-wide access; our backend enforces VA ownership. [9]
+
+Our backend reads the sheet, matches filenames and validates rows. Missing
+files, repeated filenames and missing captions are reported by row. No content
+approval is introduced. Valid rows can continue; errors remain available to
+correct without resubmitting successful rows.
+
+5. ASSIGN TEAMS AND TIMES BEFORE UPLOAD
+Our code shuffles eligible teams and balances videos across their available
+posting slots. With 400 videos and 100 active teams, aim for four per account.
+Choose the team ONCE, save the assignment, and keep it during retries.
+Use owner-configured posting hours and timezone; send explicit timestamp
+values to Bundle. Bundle accepts postDate; it does not decide our random
+routing or posting schedule. [10]
+Reserve slots locally and check account daily usage through
+GET /api/v1/organization/usage/daily-limits using socialAccountId and date.
+Daily quota follows the real Instagram account and UTC scheduled day. [11]
+If accounts are unavailable or slots are full, queue remaining rows and report
+the backlog. Never route a VA's video into another VA's teams.
+
+6. SEND THE ACTUAL FILES TO BUNDLE
+No external public video hosting or CSV import is required for this plan.
+For files up to 90 MB: POST /api/v1/upload with multipart/form-data fields
+file (actual bytes) and teamId (assigned team). Save the returned media id.
+For larger files, use the documented multipart flow: initialize with filename,
+MIME type, size and teamId; PUT chunks to returned signed URLs; complete with
+path, multipart uploadId, part numbers/ETags and teamId. Save the FINAL media
+id returned by completion, not the temporary multipart session uploadId.
+Bundle supplies the upload URLs. Keep the API key on our backend. [12,2]
+
+First-version transport proposal: the application temporarily receives files
+on its server, then a bounded worker uploads them to Bundle. These local files
+are not public video URLs. Size the server after measuring actual file sizes
+and a 400-video batch. Streaming/direct browser transfer can be considered
+only after checking browser requirements; it is not assumed here.
+
+7. CREATE THE SCHEDULED REEL USING THE RETURNED ID
+For EACH video, POST /api/v1/post/ with:
+{
+  "teamId": "assigned-team-id",
+  "title": "video001.mp4",
+  "referenceKey": "our-persisted-batch-and-row-key",
+  "postDate": "2026-10-20T09:00:00Z",
+  "status": "SCHEDULED",
+  "socialAccountTypes": ["INSTAGRAM"],
+  "data": {
+    "INSTAGRAM": {
+      "type": "REEL",
+      "text": "Caption from the spreadsheet",
+      "uploadIds": ["final-media-id-returned-by-Bundle"]
+    }
+  }
+}
+These request fields are documented. Reel requires one uploaded video;
+caption limit is 2,000 characters in the Instagram guide. [10,13,2]
+The timestamp above is an example, not a chosen production posting time.
+Save the returned post ID. One VA submission produces hundreds of individual
+API operations automatically; the VA never enters posts individually.
+
+Validate media against Bundle's documented Reel limits: one video, maximum
+width 1920px, maximum bitrate 45 Mbps, duration 3 seconds to 15 minutes.
+9:16 is the recommended shape; the limits table allows wider ratios, so do not
+invent a universal 9:16 rejection rule. [14]
+
+8. TRACK RESULTS AND HANDLE FAILURES
+GET /api/v1/post/{id} returns status and error details. Use periodic checks
+for due posts in the first version; show scheduled separately from posted.
+GET /api/v1/post/reference-key/{referenceKey} supports recovery by our key. [2,15]
+Keep a small SQLite database recording batch row, file identity, assigned
+team/time, upload ID, reference key, post ID and processing state.
+Our code skips confirmed work on retries and restarts. Reference lookup is
+documented; exactly-once creation from repeated POSTs is NOT established by
+the reviewed schema. An ambiguous timeout must be reconciled, not blindly
+resent. Leave unresolved rows visible rather than risking duplicate posts.
+Use transient error details for backoff; input/auth failures need correction.
+POST /api/v1/post/{id}/retry exists for failed posts after fixing the cause.
+A failed publish is not a reason to create a fresh duplicate post. [16,17]
+
+Output per VA: filename, caption, assigned account/team, scheduled time,
+post ID, scheduled/posted/failed status and error. No approval queue.
+
+9. QUOTAS AND FILE RETENTION
+2,000 Instagram posts daily = 60,000 in 30 days or 62,000 in 31 days.
+Business docs list 100,000 posts and 1,000,000 uploads monthly; Instagram daily
+cap is 100/account on Business. This fits nominal demand, but check the actual
+organization's remaining posts/uploads before submission. These are published
+limits, not a verified statement about the supplied key's subscription.
+Usage endpoints: GET /api/v1/organization/usage/posts and /usage/uploads.
+Monthly post quota counts creation month in UTC, including failures/deletions;
+API limits are per endpoint/tracker: 100/second, 500/10 seconds, 2000/minute.
+Use bounded concurrency and backoff for 429 responses. [11,2]
+Bundle protects files attached to draft/scheduled/publishing posts; unused
+uploads become stale after 14 days. Create the scheduled post promptly after
+upload. Bundle is not our permanent archive; local source cleanup needs an
+explicit retention setting. [18]
+
+10. BUILD ORDER AND REMAINING INPUT
+Build one small application, one worker and SQLite; no extra service stack.
+A. Team provisioning and per-VA portal sheets.
+B. Connection verification and stored VA ownership mappings.
+C. Two-column spreadsheet template and bulk upload page.
+D. File matching, balanced random assignment, slot reservation and uploads.
+E. Post creation, recovery, status checks and per-row result export.
+F. Validate routing and restart recovery without publishing; then run an
+   explicitly authorized small live pilot, followed by one 400-video batch.
+
+Still needed: actual VA/account roster, posting timezone/hours, hosting
+machine, temporary source retention policy and confirmation of subscription.
+No real content was uploaded or published while preparing this plan.
+Only public documentation/schema endpoints were requested for this review.
+
+SOURCES
+[1] https://info.bundle.social/llms.txt
+[2] https://api.bundle.social/swagger-json
+[3] https://info.bundle.social/api-reference/client/team/create-new-team
+[4] https://info.bundle.social/knowledge/teams/what-are-teams
+[5] https://info.bundle.social/api-reference/connect-social-accounts/hosted-flow
+[6] https://info.bundle.social/api-reference/connect-social-accounts/oauth-options
+[7] https://bundle.social/blog/instagram-posting-api
+[8] https://info.bundle.social/api-reference/client/socialaccount/get-social-account-by-team-and-type
+[9] https://info.bundle.social/api-reference/introduction
+[10] https://info.bundle.social/api-reference/client/post/create-post
+[11] https://info.bundle.social/api-reference/rate-limits
+[12] https://info.bundle.social/api-reference/upload-content
+[13] https://info.bundle.social/api-reference/platforms/instagram
+[14] https://info.bundle.social/api-reference/limits
+[15] https://info.bundle.social/api-reference/client/post/get-post
+[16] https://info.bundle.social/api-reference/errors
+[17] https://info.bundle.social/api-reference/client/post/retry-post
+[18] https://info.bundle.social/api-reference/data-retention
